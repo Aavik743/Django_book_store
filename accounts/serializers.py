@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import User
+from common.jwt import get_tokens_for_user
 
 
 class RegistrationSerializer(serializers.ModelSerializer):
@@ -22,14 +23,26 @@ class RegistrationSerializer(serializers.ModelSerializer):
             'username',
             'email',
             'password',
+            'confirm_password'
         ]
 
+        extra_kwargs = {'first_name': {'write_only': True},
+                        'last_name': {'write_only': True},
+                        'username': {'write_only': True},
+                        'email': {'write_only': True},
+                        'password': {'write_only': True},
+                        'confirm_password': {'write_only': True}
+                        }
+
+    # def get_token(self, obj):
+    #     print(obj)
+    #     token = get_tokens_for_user(obj).get('access token')
+    #     print(token)
+    #     return token
+
     def create(self, validated_data):
-        user = User.objects.create_user(first_name=validated_data['first_name'],
-                                        last_name=validated_data['last_name'], username=validated_data['username'],
-                                        email=validated_data['email'],
-                                        password=validated_data['password'])
-        return user
+        confirm_password = validated_data.pop('confirm_password')
+        return User.objects.create_user(**validated_data)
 
 
 class LoginSerializer(serializers.ModelSerializer):

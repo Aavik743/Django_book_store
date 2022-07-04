@@ -6,7 +6,7 @@ from django.utils.decorators import method_decorator
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from common.email import to_send_email
+from common.email import to_send_email, Mail
 from common import logger
 from common.jwt import get_tokens_for_user, token_required, modified_token
 from .models import User
@@ -17,31 +17,23 @@ class RegistrationAPI(APIView):
 
     def post(self, request):
         try:
-            data = request.data
-            serialized_data = RegistrationSerializer(data=data)
-            if serialized_data.is_valid():
-                user = serialized_data.create(serialized_data.data)
+            serializer = RegistrationSerializer(data=request.data)
+            if serializer.is_valid():
+                user = serializer.save()
                 token = get_tokens_for_user(user).get('access token')
                 short_token = modified_token(token)
+
                 current_site = get_current_site(request).domain
                 path = reverse('activate')
                 url = 'http://' + current_site + path + '?token=' + short_token
-                subject = 'Activation Link'
-                message = f'Hi {user.username}, ' \
-                          f'' \
-                          f'Click on the link to activate your account ' \
-                          f'' \
-                          f'{url}'
-                sender = 'fake.abhik@gmail.com'
-                recipient = f'{user.email}'
-                to_send_email(subject, message, sender, recipient)
-                user.save()
+
+                Mail.register_user(data={'email': user.email, 'username': user.username, 'url': url})
+                data_ = {'Activation Link': url, 'token': token, 'short_token': short_token}
                 logger.logging.info('User account registered')
-                return Response({'Message': 'Activate your account', 'Status Code': 200,
-                                 'Token': token, 'Activation Link': url})
+                return Response({'message': 'activate your account', 'status_code': 200, 'data': data_})
         except Exception as e:
-            logger.logging.error('Log Error Message')
-            return Response({'Error': str(e), 'Status Code': 400})
+            logger.logging.error(e)
+            return Response({'message': str(e), 'status_code': 400}, status=400)
 
         # {
         # "first_name": "f_name1",

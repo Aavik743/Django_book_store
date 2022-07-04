@@ -28,6 +28,7 @@ def token_required(f):
         data = decode(token, SECRET_KEY, 'HS256')
         user_id = data['user_id']
         return f(request, user_id, *args, **kwargs)
+
     return token_decode
 
 
