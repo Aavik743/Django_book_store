@@ -26,7 +26,7 @@ class AddBookAPI(APIView):
             return Response({'message': str(e), 'status_code': 400})
 
 
-class GetBookAPI(APIView):
+class BookAPI(APIView):
 
     @method_decorator(token_required)
     def get(self, request, user_id, id):

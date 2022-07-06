@@ -9,7 +9,7 @@ from common.custom_exceptions import NotSuperUser
 
 class Book(models.Model):
     name = models.CharField(max_length=50, unique=True, blank=False)
-    price = models.IntegerField(blank=False)
+    price = models.FloatField(blank=False)
     author = models.CharField(max_length=50, blank=False)
     description = models.TextField(max_length=100)
     image_field = models.FileField(upload_to='images/', null=True, default=None)
