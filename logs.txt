@@ -4537,3 +4537,181 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 2022-07-06 12:39:16 INFO-Watching for file changes with StatReloader
 2022-07-06 12:42:06 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
 2022-07-06 12:42:07 INFO-Watching for file changes with StatReloader
+2022-07-06 12:52:25 ERROR-Internal Server Error: /updatecart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 109, in delete
+    book = Book.objects.filter(pk=cart.book_id).first()
+AttributeError: 'NoneType' object has no attribute 'book_id'
+2022-07-06 12:53:33 ERROR-Internal Server Error: /updatecart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 109, in delete
+    book = Book.objects.filter(pk=cart.book_id).first()
+AttributeError: 'NoneType' object has no attribute 'book_id'
+2022-07-06 12:53:37 ERROR-Internal Server Error: /getcart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-07-06 12:54:16 ERROR-Log Error Message
+2022-07-06 12:55:05 ERROR-Internal Server Error: /getcart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-07-06 12:55:18 ERROR-Log Error Message
+2022-07-06 12:56:13 ERROR-Log Error Message
+2022-07-06 12:56:44 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:56:45 INFO-Watching for file changes with StatReloader
+2022-07-06 12:56:46 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 29, in post
+    print(cart.user)
+AttributeError: 'NoneType' object has no attribute 'user'
+2022-07-06 12:57:58 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:57:59 INFO-Watching for file changes with StatReloader
+2022-07-06 12:58:08 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:58:08 INFO-Watching for file changes with StatReloader
+2022-07-06 12:58:11 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 28, in post
+    if cart.user == user:
+AttributeError: 'NoneType' object has no attribute 'user'
+2022-07-06 13:09:36 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 13:09:37 INFO-Watching for file changes with StatReloader
+2022-07-06 13:16:07 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 13:16:08 INFO-Watching for file changes with StatReloader
+2022-07-06 13:22:16 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 13:22:18 INFO-Watching for file changes with StatReloader
+2022-07-06 13:30:27 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 13:30:29 INFO-Watching for file changes with StatReloader
+2022-07-06 13:30:35 ERROR-Internal Server Error: /updatecart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 55, in patch
+    data_ = Cart.update_cart_validation(user)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 53, in update_cart_validation
+    book_quantity = int(request.data.get('book_quantity'))
+AttributeError: module 'rest_framework.request' has no attribute 'data'
+2022-07-06 13:32:16 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 13:32:18 INFO-Watching for file changes with StatReloader
+2022-07-06 13:37:27 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 13:37:29 INFO-Watching for file changes with StatReloader
