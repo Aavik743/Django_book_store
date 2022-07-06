@@ -1,15 +1,13 @@
-import json
-
 from django.utils.decorators import method_decorator
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from accounts.models import User
+from books.models import Book
 from common import logger
 from common.jwt import token_required
 from .models import Cart
-from .serializers import AddToCartSerializer, GetCartSerializer, UpdateCartSerializer
-from accounts.models import User
-from books.models import Book
+from .serializers import AddToCartSerializer, GetCartSerializer
 
 
 class AddToCartAPI(APIView):
@@ -18,6 +16,7 @@ class AddToCartAPI(APIView):
     def post(self, request, user_id):
         try:
             user = User.objects.filter(pk=user_id).first()
+            print(user)
             if user:
                 cart_serializer = AddToCartSerializer(data=request.data)
                 cart_serializer.is_valid()
@@ -27,14 +26,24 @@ class AddToCartAPI(APIView):
                 if book:
                     if book.book_quantity >= book_quantity:
                         cart = Cart.objects.filter(book_id=book_id).first()
-                        if cart:
-                            cart.book_quantity += book_quantity
+                        print(cart.user)
+                        if cart.user == user:
+                            if cart.book == book:
+                                cart.book_quantity += book_quantity
+                                book.book_quantity -= book_quantity
+                                cart.total_price = cart.book_quantity * book.price
+                                cart.save()
+                                book.save()
+                                return Response(
+                                    {'message': 'cart updated', 'status_code': 200, 'data': cart_serializer.data})
                             book.book_quantity -= book_quantity
-                            cart.total_price = cart.book_quantity * book.price
+                            total_price = book.price * book_quantity
+
+                            cart = Cart.objects.create(user=user, book=book,
+                                                       book_quantity=book_quantity, total_price=total_price)
                             cart.save()
                             book.save()
-                            return Response(
-                                {'message': 'cart updated', 'status_code': 200, 'data': cart_serializer.data})
+                            return Response({'message': 'cart added', 'status_code': 200, 'data': cart_serializer.data})
                         book.book_quantity -= book_quantity
                         total_price = book.price * book_quantity
 
@@ -74,12 +83,7 @@ class UpdateCartAPI(APIView):
             book = Book.objects.filter(pk=cart.book_id).first()
             if book:
                 if cart:
-                    # cart_serializer = UpdateCartSerializer(cart)
-                    # book_quantity = cart_serializer.data.get('book_quantity')
                     book_quantity = int(request.data.get('book_quantity'))
-
-                    print('cart book q', cart.book_quantity)
-                    print('input book q', book_quantity)
 
                     if cart.book_quantity > book_quantity:
                         count = cart.book_quantity - book_quantity

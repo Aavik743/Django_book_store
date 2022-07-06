@@ -4496,3 +4496,44 @@ TypeError: '>' not supported between instances of 'int' and 'str'
 2022-07-06 11:55:11 INFO-Watching for file changes with StatReloader
 2022-07-06 11:55:54 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
 2022-07-06 11:55:55 INFO-Watching for file changes with StatReloader
+2022-07-06 12:04:27 INFO-Watching for file changes with StatReloader
+2022-07-06 12:17:07 ERROR-Internal Server Error: /getcart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-07-06 12:21:43 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:21:43 INFO-Watching for file changes with StatReloader
+2022-07-06 12:22:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:22:59 INFO-Watching for file changes with StatReloader
+2022-07-06 12:23:25 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:23:26 INFO-Watching for file changes with StatReloader
+2022-07-06 12:24:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:24:11 INFO-Watching for file changes with StatReloader
+2022-07-06 12:26:08 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:26:09 INFO-Watching for file changes with StatReloader
+2022-07-06 12:26:12 ERROR-Log Error Message
+2022-07-06 12:26:34 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:26:35 INFO-Watching for file changes with StatReloader
+2022-07-06 12:26:36 ERROR-Log Error Message
+2022-07-06 12:27:04 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:27:04 INFO-Watching for file changes with StatReloader
+2022-07-06 12:27:07 ERROR-Log Error Message
+2022-07-06 12:27:18 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:27:19 INFO-Watching for file changes with StatReloader
+2022-07-06 12:35:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:35:11 INFO-Watching for file changes with StatReloader
+2022-07-06 12:39:15 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-06 12:39:16 INFO-Watching for file changes with StatReloader
+2022-07-06 12:42:06 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 12:42:07 INFO-Watching for file changes with StatReloader
