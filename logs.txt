@@ -4715,3 +4715,2218 @@ AttributeError: module 'rest_framework.request' has no attribute 'data'
 2022-07-06 13:32:18 INFO-Watching for file changes with StatReloader
 2022-07-06 13:37:27 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
 2022-07-06 13:37:29 INFO-Watching for file changes with StatReloader
+2022-07-06 18:39:33 INFO-Watching for file changes with StatReloader
+2022-07-06 18:40:28 ERROR-Log Error Message
+2022-07-06 18:40:47 ERROR-Log Error Message
+2022-07-06 18:41:20 ERROR-Log Error Message
+2022-07-06 18:42:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-06 18:42:36 INFO-Watching for file changes with StatReloader
+2022-07-06 18:42:39 ERROR-Log Error Message
+2022-07-06 18:52:43 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-06 18:52:44 INFO-Watching for file changes with StatReloader
+2022-07-06 19:05:22 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\settings.py changed, reloading.
+2022-07-06 19:05:24 INFO-Watching for file changes with StatReloader
+2022-07-06 19:05:50 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\urls.py changed, reloading.
+2022-07-06 19:05:52 INFO-Watching for file changes with StatReloader
+2022-07-06 19:18:09 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\models.py changed, reloading.
+2022-07-06 19:18:10 INFO-Watching for file changes with StatReloader
+2022-07-06 23:09:38 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 23:09:39 INFO-Watching for file changes with StatReloader
+2022-07-06 23:10:00 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 23:10:01 INFO-Watching for file changes with StatReloader
+2022-07-06 23:12:24 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 23:12:25 INFO-Watching for file changes with StatReloader
+2022-07-06 23:14:37 INFO-Watching for file changes with StatReloader
+2022-07-06 23:14:56 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\settings.py changed, reloading.
+2022-07-06 23:14:56 INFO-Watching for file changes with StatReloader
+2022-07-06 23:16:04 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 23:16:05 INFO-Watching for file changes with StatReloader
+2022-07-06 23:16:50 ERROR-Log Error Message
+2022-07-06 23:18:04 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 23:18:05 INFO-Watching for file changes with StatReloader
+2022-07-06 23:18:08 ERROR-Log Error Message
+2022-07-06 23:18:25 ERROR-Log Error Message
+2022-07-06 23:18:52 ERROR-Log Error Message
+2022-07-06 23:19:00 ERROR-Log Error Message
+2022-07-06 23:19:19 ERROR-Log Error Message
+2022-07-06 23:19:47 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-06 23:19:48 INFO-Watching for file changes with StatReloader
+2022-07-06 23:19:53 ERROR-Log Error Message
+2022-07-06 23:20:13 ERROR-Log Error Message
+2022-07-06 23:23:08 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\urls.py changed, reloading.
+2022-07-06 23:23:09 INFO-Watching for file changes with StatReloader
+2022-07-06 23:30:18 INFO-Watching for file changes with StatReloader
+2022-07-06 23:30:47 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\urls.py changed, reloading.
+2022-07-06 23:30:48 INFO-Watching for file changes with StatReloader
+2022-07-06 23:31:33 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-06 23:32:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:32:06 INFO-Watching for file changes with StatReloader
+2022-07-06 23:32:11 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-06 23:34:00 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:34:01 INFO-Watching for file changes with StatReloader
+2022-07-06 23:34:04 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-06 23:35:07 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:35:08 INFO-Watching for file changes with StatReloader
+2022-07-06 23:35:11 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-06 23:36:02 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:36:03 INFO-Watching for file changes with StatReloader
+2022-07-06 23:36:04 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-06 23:36:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:37:00 INFO-Watching for file changes with StatReloader
+2022-07-06 23:37:00 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-06 23:40:12 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\models.py changed, reloading.
+2022-07-06 23:40:12 INFO-Watching for file changes with StatReloader
+2022-07-06 23:44:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:44:06 INFO-Watching for file changes with StatReloader
+2022-07-06 23:44:12 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 14, in post
+    cart = User.objects.filter(user=user)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: cart, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, order, password, user_permissions, username
+2022-07-06 23:45:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:45:33 INFO-Watching for file changes with StatReloader
+2022-07-06 23:45:42 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 14, in post
+    cart = User.objects.filter(user=user).values()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: cart, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, order, password, user_permissions, username
+2022-07-06 23:45:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:46:00 INFO-Watching for file changes with StatReloader
+2022-07-06 23:46:03 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 14, in post
+    cart = User.objects.filter(user=user).first()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: cart, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, order, password, user_permissions, username
+2022-07-06 23:47:07 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:47:07 INFO-Watching for file changes with StatReloader
+2022-07-06 23:47:09 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 14, in post
+    cart = User.objects.filter(user_id=user_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_id' into field. Choices are: cart, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, order, password, user_permissions, username
+2022-07-06 23:47:20 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:47:20 INFO-Watching for file changes with StatReloader
+2022-07-06 23:47:25 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 14, in post
+    cart = User.objects.filter(user_id=user_id).first()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_id' into field. Choices are: cart, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, order, password, user_permissions, username
+2022-07-06 23:48:40 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:48:41 INFO-Watching for file changes with StatReloader
+2022-07-06 23:50:41 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:50:42 INFO-Watching for file changes with StatReloader
+2022-07-06 23:51:17 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:51:18 INFO-Watching for file changes with StatReloader
+2022-07-06 23:51:26 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 14, in post
+    cart = User.objects.filter(user_id=user_id).first()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_id' into field. Choices are: cart, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, order, password, user_permissions, username
+2022-07-06 23:51:40 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-06 23:51:40 INFO-Watching for file changes with StatReloader
+2022-07-06 23:51:44 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 14, in post
+    cart = User.objects.filter(user_id).first()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1374, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+2022-07-07 08:20:25 INFO-Watching for file changes with StatReloader
+2022-07-07 08:20:40 ERROR-Log Error Message
+2022-07-07 08:21:14 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 08:21:15 INFO-Watching for file changes with StatReloader
+2022-07-07 08:21:37 ERROR-Log Error Message
+2022-07-07 08:29:52 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 08:29:53 INFO-Watching for file changes with StatReloader
+2022-07-07 08:30:08 ERROR-Log Error Message
+2022-07-07 08:30:51 ERROR-Log Error Message
+2022-07-07 08:33:28 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-07 08:33:29 INFO-Watching for file changes with StatReloader
+2022-07-07 08:37:25 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-07 08:37:26 INFO-Watching for file changes with StatReloader
+2022-07-07 08:39:09 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-07 08:39:10 INFO-Watching for file changes with StatReloader
+2022-07-07 08:40:04 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-07 08:40:05 INFO-Watching for file changes with StatReloader
+2022-07-07 08:41:11 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 08:41:11 INFO-Watching for file changes with StatReloader
+2022-07-07 08:41:37 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-07 08:41:38 INFO-Watching for file changes with StatReloader
+2022-07-07 08:42:28 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-07 08:42:29 INFO-Watching for file changes with StatReloader
+2022-07-07 08:43:56 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-07 08:43:56 INFO-Watching for file changes with StatReloader
+2022-07-07 08:44:03 ERROR-Log Error Message
+2022-07-07 08:44:22 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 08:44:23 INFO-Watching for file changes with StatReloader
+2022-07-07 08:44:26 ERROR-Log Error Message
+2022-07-07 08:44:40 ERROR-Log Error Message
+2022-07-07 08:44:48 ERROR-Log Error Message
+2022-07-07 08:52:11 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 08:52:12 INFO-Watching for file changes with StatReloader
+2022-07-07 09:12:07 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 09:12:08 INFO-Watching for file changes with StatReloader
+2022-07-07 09:16:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 09:16:36 INFO-Watching for file changes with StatReloader
+2022-07-07 09:56:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-07 09:56:11 INFO-Watching for file changes with StatReloader
+2022-07-07 20:16:08 INFO-Watching for file changes with StatReloader
+2022-07-07 20:17:05 ERROR-Log Error Message
+2022-07-07 20:17:56 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 20:17:57 INFO-Watching for file changes with StatReloader
+2022-07-07 20:18:38 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 27, in post
+    cart = Cart.objects.get(book_id__id=book_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+2022-07-07 20:21:12 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 20:21:12 INFO-Watching for file changes with StatReloader
+2022-07-07 20:27:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 20:27:32 INFO-Watching for file changes with StatReloader
+2022-07-07 20:27:41 ERROR-Log Error Message
+2022-07-07 20:28:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 20:28:06 INFO-Watching for file changes with StatReloader
+2022-07-07 20:28:07 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 29, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 20:29:42 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 29, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 22:47:25 INFO-Watching for file changes with StatReloader
+2022-07-07 22:47:45 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 29, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 22:52:24 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 22:52:25 INFO-Watching for file changes with StatReloader
+2022-07-07 22:52:35 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 29, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 22:53:03 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 22:53:04 INFO-Watching for file changes with StatReloader
+2022-07-07 22:53:07 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 29, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 22:53:47 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 22:53:48 INFO-Watching for file changes with StatReloader
+2022-07-07 22:53:50 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 30, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 22:55:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 22:56:00 INFO-Watching for file changes with StatReloader
+2022-07-07 22:56:04 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 30, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 22:57:29 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 22:57:29 INFO-Watching for file changes with StatReloader
+2022-07-07 22:57:35 ERROR-Log Error Message
+2022-07-07 22:58:02 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 22:58:03 INFO-Watching for file changes with StatReloader
+2022-07-07 22:58:06 ERROR-Log Error Message
+2022-07-07 23:00:43 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 23:00:44 INFO-Watching for file changes with StatReloader
+2022-07-07 23:00:48 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 27, in post
+    cart = Cart.objects.get(book_id__id=book_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+2022-07-07 23:01:14 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 23:01:15 INFO-Watching for file changes with StatReloader
+2022-07-07 23:01:15 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 30, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'QuerySet' object has no attribute 'book'
+2022-07-07 23:01:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 23:01:32 INFO-Watching for file changes with StatReloader
+2022-07-07 23:01:35 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 30, in post
+    Cart.add_to_cart_validation(cart, book_quantity)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py", line 21, in add_to_cart_validation
+    book = cart.book
+AttributeError: 'NoneType' object has no attribute 'book'
+2022-07-07 23:02:26 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-07 23:02:27 INFO-Watching for file changes with StatReloader
+2022-07-08 08:07:43 INFO-Watching for file changes with StatReloader
+2022-07-08 09:09:24 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 09:09:25 INFO-Watching for file changes with StatReloader
+2022-07-08 09:13:14 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 09:13:14 INFO-Watching for file changes with StatReloader
+2022-07-08 09:16:28 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 09:16:28 INFO-Watching for file changes with StatReloader
+2022-07-08 09:20:58 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-08 09:20:59 INFO-Watching for file changes with StatReloader
+2022-07-08 09:28:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 09:29:00 INFO-Watching for file changes with StatReloader
+2022-07-08 09:32:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:32:47 INFO-Watching for file changes with StatReloader
+2022-07-08 09:33:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:33:36 INFO-Watching for file changes with StatReloader
+2022-07-08 09:33:37 WARNING-Bad Request: /cart/
+2022-07-08 09:34:36 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:34:37 INFO-Watching for file changes with StatReloader
+2022-07-08 09:35:36 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:35:37 INFO-Watching for file changes with StatReloader
+2022-07-08 09:37:37 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:37:38 INFO-Watching for file changes with StatReloader
+2022-07-08 09:39:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:39:33 INFO-Watching for file changes with StatReloader
+2022-07-08 09:55:16 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:55:18 INFO-Watching for file changes with StatReloader
+2022-07-08 09:57:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 09:57:47 INFO-Watching for file changes with StatReloader
+2022-07-08 09:58:50 ERROR-Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py", line 23, in post
+    cart_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py", line 20, in create
+    raise Exception('book out of stock', 400)
+Exception: ('book out of stock', 400)
+2022-07-08 09:59:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 09:59:35 INFO-Watching for file changes with StatReloader
+2022-07-08 09:59:39 ERROR-Log Error Message
+2022-07-08 10:00:44 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 10:00:45 INFO-Watching for file changes with StatReloader
+2022-07-08 10:03:47 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 10:03:48 INFO-Watching for file changes with StatReloader
+2022-07-08 10:03:51 ERROR-Log Error Message
+2022-07-08 10:03:51 WARNING-Bad Request: /cart/
+2022-07-08 10:05:59 ERROR-Log Error Message
+2022-07-08 10:05:59 WARNING-Bad Request: /cart/
+2022-07-08 10:08:29 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 10:08:29 INFO-Watching for file changes with StatReloader
+2022-07-08 10:13:16 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 10:13:17 INFO-Watching for file changes with StatReloader
+2022-07-08 10:22:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 10:22:33 INFO-Watching for file changes with StatReloader
+2022-07-08 10:22:52 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 10:22:53 INFO-Watching for file changes with StatReloader
+2022-07-08 10:22:57 ERROR-Log Error Message
+2022-07-08 10:22:57 WARNING-Bad Request: /updatecart/
+2022-07-08 10:25:00 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-08 10:25:01 INFO-Watching for file changes with StatReloader
+2022-07-08 10:25:02 ERROR-Log Error Message
+2022-07-08 10:25:02 WARNING-Bad Request: /updatecart/
+2022-07-08 10:34:57 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 10:34:57 INFO-Watching for file changes with StatReloader
+2022-07-08 10:36:58 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 10:36:59 INFO-Watching for file changes with StatReloader
+2022-07-08 10:37:09 ERROR-Log Error Message
+2022-07-08 10:37:09 WARNING-Bad Request: /updatecart/
+2022-07-08 10:38:53 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 10:38:54 INFO-Watching for file changes with StatReloader
+2022-07-08 10:39:34 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 10:39:35 INFO-Watching for file changes with StatReloader
+2022-07-08 10:40:12 ERROR-Log Error Message
+2022-07-08 10:40:12 WARNING-Bad Request: /updatecart/
+2022-07-08 10:46:09 ERROR-Log Error Message
+2022-07-08 10:46:13 ERROR-Log Error Message
+2022-07-08 11:44:37 ERROR-Log Error Message
+2022-07-08 11:44:37 WARNING-Bad Request: /updatecart/
+2022-07-08 11:51:44 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 11:51:45 INFO-Watching for file changes with StatReloader
+2022-07-08 11:51:47 ERROR-Log Error Message
+2022-07-08 11:52:08 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 11:52:09 INFO-Watching for file changes with StatReloader
+2022-07-08 11:52:09 ERROR-Log Error Message
+2022-07-08 11:52:48 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-08 11:52:49 INFO-Watching for file changes with StatReloader
+2022-07-08 11:54:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-08 11:54:47 INFO-Watching for file changes with StatReloader
+2022-07-08 12:10:38 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 12:10:39 INFO-Watching for file changes with StatReloader
+2022-07-08 12:15:07 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:15:08 INFO-Watching for file changes with StatReloader
+2022-07-08 12:16:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-08 12:16:34 INFO-Watching for file changes with StatReloader
+2022-07-08 12:23:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:23:11 INFO-Watching for file changes with StatReloader
+2022-07-08 12:23:48 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:23:49 INFO-Watching for file changes with StatReloader
+2022-07-08 12:24:13 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:24:14 INFO-Watching for file changes with StatReloader
+2022-07-08 12:26:13 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:26:14 INFO-Watching for file changes with StatReloader
+2022-07-08 12:30:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:30:31 INFO-Watching for file changes with StatReloader
+2022-07-08 12:33:14 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 18, in create
+    total_price = cart.total_price
+AttributeError: 'NoneType' object has no attribute 'total_price'
+2022-07-08 12:34:28 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:34:29 INFO-Watching for file changes with StatReloader
+2022-07-08 12:34:30 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 19, in create
+    total_price = cart.total_price
+AttributeError: 'NoneType' object has no attribute 'total_price'
+2022-07-08 12:38:29 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 19, in create
+    total_price = cart.total_price
+AttributeError: 'NoneType' object has no attribute 'total_price'
+2022-07-08 12:40:20 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:40:21 INFO-Watching for file changes with StatReloader
+2022-07-08 12:41:47 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:41:47 INFO-Watching for file changes with StatReloader
+2022-07-08 12:42:00 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 19, in create
+    cart = Cart.objects.get(pk=cart_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+2022-07-08 12:42:47 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:42:48 INFO-Watching for file changes with StatReloader
+2022-07-08 12:42:49 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 19, in create
+    cart = Cart.objects.get(pk=cart_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+2022-07-08 12:43:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:43:32 INFO-Watching for file changes with StatReloader
+2022-07-08 12:43:33 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 20, in create
+    cart = Cart.objects.get(pk=cart_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+2022-07-08 12:43:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:44:00 INFO-Watching for file changes with StatReloader
+2022-07-08 12:44:01 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 20, in create
+    cart = Cart.objects.get(pk=cart_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+2022-07-08 12:49:08 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 18, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 20, in create
+    cart = Cart.objects.get(pk=cart_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+2022-07-08 12:53:40 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:53:41 INFO-Watching for file changes with StatReloader
+2022-07-08 12:56:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 12:56:36 INFO-Watching for file changes with StatReloader
+2022-07-08 15:29:45 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-08 15:29:46 INFO-Watching for file changes with StatReloader
+2022-07-08 15:30:16 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 20, in create
+    cart = Cart.objects.get(pk=cart_id)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+carts.models.Cart.DoesNotExist: Cart matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 24, in post
+    logger.logging.error('Log Error Message')
+AttributeError: 'NoneType' object has no attribute 'logging'
+2022-07-08 15:31:07 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-08 15:31:08 INFO-Watching for file changes with StatReloader
+2022-07-08 15:31:09 ERROR-Log Error Message
+2022-07-08 15:31:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-08 15:31:31 INFO-Watching for file changes with StatReloader
+2022-07-08 15:31:33 ERROR-Log Error Message
+2022-07-08 15:48:36 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 15:48:37 INFO-Watching for file changes with StatReloader
+2022-07-08 15:49:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-08 15:49:10 INFO-Watching for file changes with StatReloader
+2022-07-08 15:49:24 ERROR-Log Error Message
+2022-07-08 15:49:24 WARNING-Bad Request: /cart/
+2022-07-08 15:53:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-08 15:53:10 INFO-Watching for file changes with StatReloader
+2022-07-08 15:53:20 ERROR-Log Error Message
+2022-07-08 15:53:27 ERROR-Log Error Message
+2022-07-09 00:25:56 INFO-Watching for file changes with StatReloader
+2022-07-09 00:27:09 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 00:27:10 INFO-Watching for file changes with StatReloader
+2022-07-09 00:27:13 ERROR-Log Error Message
+2022-07-09 08:30:13 INFO-Watching for file changes with StatReloader
+2022-07-09 08:30:17 ERROR-Log Error Message
+2022-07-09 08:31:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 08:31:07 INFO-Watching for file changes with StatReloader
+2022-07-09 08:31:09 ERROR-Log Error Message
+2022-07-09 08:32:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 08:32:33 INFO-Watching for file changes with StatReloader
+2022-07-09 08:32:34 ERROR-Log Error Message
+2022-07-09 08:35:57 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 08:35:59 INFO-Watching for file changes with StatReloader
+2022-07-09 08:36:07 ERROR-Log Error Message
+2022-07-09 08:38:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\models.py changed, reloading.
+2022-07-09 08:38:33 INFO-Watching for file changes with StatReloader
+2022-07-09 08:40:29 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\models.py changed, reloading.
+2022-07-09 08:40:31 INFO-Watching for file changes with StatReloader
+2022-07-09 08:42:25 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\models.py changed, reloading.
+2022-07-09 08:42:27 INFO-Watching for file changes with StatReloader
+2022-07-09 08:47:33 ERROR-Log Error Message
+2022-07-09 08:48:33 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 08:48:35 INFO-Watching for file changes with StatReloader
+2022-07-09 08:48:38 WARNING-Bad Request: /checkout/
+2022-07-09 08:49:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 08:49:06 INFO-Watching for file changes with StatReloader
+2022-07-09 08:54:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 08:54:07 INFO-Watching for file changes with StatReloader
+2022-07-09 08:56:42 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 08:56:44 INFO-Watching for file changes with StatReloader
+2022-07-09 08:56:50 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 21, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 20, in create
+    user = cart.user__id
+AttributeError: 'Cart' object has no attribute 'user__id'
+2022-07-09 08:57:04 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 08:57:05 INFO-Watching for file changes with StatReloader
+2022-07-09 09:00:55 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:00:57 INFO-Watching for file changes with StatReloader
+2022-07-09 09:01:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:02:00 INFO-Watching for file changes with StatReloader
+2022-07-09 09:04:09 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:04:10 INFO-Watching for file changes with StatReloader
+2022-07-09 09:10:50 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 09:10:51 INFO-Watching for file changes with StatReloader
+2022-07-09 09:10:53 ERROR-Log Error Message
+2022-07-09 09:14:24 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:14:26 INFO-Watching for file changes with StatReloader
+2022-07-09 09:15:20 ERROR-Log Error Message
+2022-07-09 09:15:20 WARNING-Bad Request: /cart/
+2022-07-09 09:15:48 ERROR-Log Error Message
+2022-07-09 09:15:57 ERROR-Log Error Message
+2022-07-09 09:15:57 WARNING-Bad Request: /cart/
+2022-07-09 09:16:04 ERROR-Log Error Message
+2022-07-09 09:17:03 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\serializers.py changed, reloading.
+2022-07-09 09:17:04 INFO-Watching for file changes with StatReloader
+2022-07-09 09:17:52 ERROR-Log Error Message
+2022-07-09 09:19:48 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:19:50 INFO-Watching for file changes with StatReloader
+2022-07-09 09:20:14 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 09:20:16 INFO-Watching for file changes with StatReloader
+2022-07-09 09:22:54 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:22:56 INFO-Watching for file changes with StatReloader
+2022-07-09 09:23:07 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 21, in create
+    cart.delete()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\base.py", line 1093, in delete
+    collector.collect([self], keep_parents=keep_parents)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\deletion.py", line 348, in collect
+    raise ProtectedError(
+django.db.models.deletion.ProtectedError: ("Cannot delete some instances of model 'Cart' because they are referenced through protected foreign keys: 'Order.cart'.", {<Order: 3>})
+2022-07-09 09:24:15 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\models.py changed, reloading.
+2022-07-09 09:24:17 INFO-Watching for file changes with StatReloader
+2022-07-09 09:24:41 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:28:22 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:28:24 INFO-Watching for file changes with StatReloader
+2022-07-09 09:29:08 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:29:36 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:29:38 INFO-Watching for file changes with StatReloader
+2022-07-09 09:29:49 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:30:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:30:34 INFO-Watching for file changes with StatReloader
+2022-07-09 09:30:37 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:31:01 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:31:03 INFO-Watching for file changes with StatReloader
+2022-07-09 09:31:07 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:32:45 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:32:46 INFO-Watching for file changes with StatReloader
+2022-07-09 09:32:51 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:34:11 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:34:12 INFO-Watching for file changes with StatReloader
+2022-07-09 09:37:23 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:39:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:39:35 INFO-Watching for file changes with StatReloader
+2022-07-09 09:39:40 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 09:44:13 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:44:14 INFO-Watching for file changes with StatReloader
+2022-07-09 09:44:38 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:44:39 INFO-Watching for file changes with StatReloader
+2022-07-09 09:44:50 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 21, in create
+    validated_data.update(json.dumps(update_data))
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+2022-07-09 09:45:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 09:46:00 INFO-Watching for file changes with StatReloader
+2022-07-09 09:46:05 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:25:08 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:25:10 INFO-Watching for file changes with StatReloader
+2022-07-09 10:25:28 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 21, in create
+    validated_data.update(json.dumps(update_data))
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+2022-07-09 10:28:51 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:28:52 INFO-Watching for file changes with StatReloader
+2022-07-09 10:28:55 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 21, in create
+    validated_data.update(json.loads(update_data))
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+2022-07-09 10:31:52 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:31:53 INFO-Watching for file changes with StatReloader
+2022-07-09 10:32:02 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:38:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:38:47 INFO-Watching for file changes with StatReloader
+2022-07-09 10:38:49 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:39:42 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:39:43 INFO-Watching for file changes with StatReloader
+2022-07-09 10:39:46 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 17, in create
+    cart = json.dumps(validated_data.get('cart'))
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:40:06 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:40:07 INFO-Watching for file changes with StatReloader
+2022-07-09 10:40:08 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 17, in create
+    cart = json.dumps(validated_data.get('cart'))
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:40:33 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:40:34 INFO-Watching for file changes with StatReloader
+2022-07-09 10:40:36 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 17, in create
+    cart = json.loads(validated_data.get('cart'))
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not Cart
+2022-07-09 10:41:37 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:41:38 INFO-Watching for file changes with StatReloader
+2022-07-09 10:41:44 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 20, in post
+    order_serializer.save()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py", line 23, in create
+    create_query = self.Meta.model.objects.create(validated_data)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: create() takes 1 positional argument but 2 were given
+2022-07-09 10:42:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:42:47 INFO-Watching for file changes with StatReloader
+2022-07-09 10:42:48 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:44:49 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:44:50 INFO-Watching for file changes with StatReloader
+2022-07-09 10:44:58 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:48:23 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:48:24 INFO-Watching for file changes with StatReloader
+2022-07-09 10:48:29 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 10:49:14 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 10:49:14 INFO-Watching for file changes with StatReloader
+2022-07-09 10:49:15 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'cart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 23, in post
+    "data": order_serializer.data})
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\relations.py", line 190, in get_attribute
+    return super().get_attribute(instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `cart` on serializer `OrderSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'cart'."
+2022-07-09 10:52:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:52:32 INFO-Watching for file changes with StatReloader
+2022-07-09 10:52:56 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:52:57 INFO-Watching for file changes with StatReloader
+2022-07-09 10:53:17 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 10:53:18 INFO-Watching for file changes with StatReloader
+2022-07-09 10:54:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:55:00 INFO-Watching for file changes with StatReloader
+2022-07-09 10:56:42 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:56:42 INFO-Watching for file changes with StatReloader
+2022-07-09 10:56:51 ERROR-Log Error Message
+2022-07-09 10:59:13 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'cart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 23, in post
+    "data": order_serializer.data})
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\relations.py", line 190, in get_attribute
+    return super().get_attribute(instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `cart` on serializer `OrderSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'cart'."
+2022-07-09 10:59:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 10:59:33 INFO-Watching for file changes with StatReloader
+2022-07-09 11:00:33 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'int' object has no attribute 'cart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 23, in post
+    "data": order_serializer.data})
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\relations.py", line 190, in get_attribute
+    return super().get_attribute(instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `cart` on serializer `OrderSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `int` instance.
+Original exception text was: 'int' object has no attribute 'cart'.
+2022-07-09 11:01:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 11:01:11 INFO-Watching for file changes with StatReloader
+2022-07-09 11:01:56 ERROR-Log Error Message
+2022-07-09 11:04:44 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 11:04:45 INFO-Watching for file changes with StatReloader
+2022-07-09 11:04:52 ERROR-Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cart is not JSON serializable
+2022-07-09 11:06:32 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 11:06:33 INFO-Watching for file changes with StatReloader
+2022-07-09 11:06:40 ERROR-Log Error Message
+2022-07-09 11:14:51 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 11:14:52 INFO-Watching for file changes with StatReloader
+2022-07-09 11:15:15 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 11:15:16 INFO-Watching for file changes with StatReloader
+2022-07-09 11:19:55 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-09 11:19:55 INFO-Watching for file changes with StatReloader
+2022-07-09 11:23:30 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-09 11:23:31 INFO-Watching for file changes with StatReloader
+2022-07-09 11:24:22 WARNING-Not Found: /orders/

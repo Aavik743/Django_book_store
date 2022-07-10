@@ -20,13 +20,21 @@ class TokenRequired(CustomBaseException):
     pass
 
 
-class UserNotExist(CustomBaseException):
+class UserDoesNotExist(CustomBaseException):
     pass
 
 
-class BookDoesNotExists(CustomBaseException):
+class BookDoesNotExist(CustomBaseException):
     pass
 
 
 class FieldError(CustomBaseException):
+    pass
+
+
+class BookQuantityExceeding(CustomBaseException):
+    pass
+
+
+class CartDoesNotExist(CustomBaseException):
     pass
