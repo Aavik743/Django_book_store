@@ -11,6 +11,7 @@ class Cart(models.Model):
     total_price = models.FloatField()
     date_created = models.DateTimeField(auto_now_add=True)
     date_updated = models.DateTimeField(auto_now=True)
+    ordered = models.BooleanField(default=False)
 
     def __str__(self):
         return str(self.id)

@@ -6930,3 +6930,145 @@ TypeError: Object of type Cart is not JSON serializable
 2022-07-09 11:23:30 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
 2022-07-09 11:23:31 INFO-Watching for file changes with StatReloader
 2022-07-09 11:24:22 WARNING-Not Found: /orders/
+2022-07-12 08:15:21 INFO-Watching for file changes with StatReloader
+2022-07-12 08:16:39 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 08:16:40 INFO-Watching for file changes with StatReloader
+2022-07-12 08:39:49 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 08:39:50 INFO-Watching for file changes with StatReloader
+2022-07-12 08:41:04 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 08:41:05 INFO-Watching for file changes with StatReloader
+2022-07-12 08:48:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-12 08:48:32 INFO-Watching for file changes with StatReloader
+2022-07-12 08:50:16 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-12 08:50:17 INFO-Watching for file changes with StatReloader
+2022-07-12 08:56:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\models.py changed, reloading.
+2022-07-12 08:56:47 INFO-Watching for file changes with StatReloader
+2022-07-12 08:56:49 ERROR-Log Error Message
+2022-07-12 08:58:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 08:58:47 INFO-Watching for file changes with StatReloader
+2022-07-12 08:58:49 ERROR-Log Error Message
+2022-07-12 08:59:34 ERROR-Log Error Message
+2022-07-12 09:00:27 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-12 09:00:28 INFO-Watching for file changes with StatReloader
+2022-07-12 09:01:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-12 09:01:10 INFO-Watching for file changes with StatReloader
+2022-07-12 09:02:49 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 09:02:49 INFO-Watching for file changes with StatReloader
+2022-07-12 09:05:11 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 09:05:12 INFO-Watching for file changes with StatReloader
+2022-07-12 09:06:37 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 09:06:38 INFO-Watching for file changes with StatReloader
+2022-07-12 09:07:11 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 09:07:12 INFO-Watching for file changes with StatReloader
+2022-07-12 09:08:50 ERROR-Log Error Message
+2022-07-12 10:58:00 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-12 10:58:01 INFO-Watching for file changes with StatReloader
+2022-07-12 10:58:09 ERROR-Log Error Message
+2022-07-12 10:58:57 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 10:58:58 INFO-Watching for file changes with StatReloader
+2022-07-12 10:59:02 ERROR-Log Error Message
+2022-07-12 10:59:03 ERROR-Log Error Message
+2022-07-12 10:59:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 10:59:36 INFO-Watching for file changes with StatReloader
+2022-07-12 10:59:39 ERROR-Log Error Message
+2022-07-12 10:59:40 ERROR-Log Error Message
+2022-07-12 11:00:18 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-12 11:00:19 INFO-Watching for file changes with StatReloader
+2022-07-12 11:00:23 ERROR-Internal Server Error: /get-orders/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 37, in get
+    order = Order.objects.filter(user__id=user_id, ordered=True)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'ordered' into field. Choices are: address, book, book_id, book_quantity, cart, cart_id, date_ordered, id, total_price, user, user_id
+2022-07-12 11:01:23 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-12 11:01:23 INFO-Watching for file changes with StatReloader
+2022-07-12 11:01:37 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 11:01:38 INFO-Watching for file changes with StatReloader
+2022-07-12 11:01:41 ERROR-Internal Server Error: /get-orders/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 30, in token_decode
+    return f(request, user_id, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py", line 44, in get
+    return Response({'message': 'cart fetched', 'status_code': 200, 'data': cart_serializer.data},
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `ordered` is not valid for model `Order`.
+2022-07-12 11:01:56 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\serializers.py changed, reloading.
+2022-07-12 11:01:56 INFO-Watching for file changes with StatReloader
+2022-07-12 11:03:50 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-12 11:03:51 INFO-Watching for file changes with StatReloader

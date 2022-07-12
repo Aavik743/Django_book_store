@@ -37,7 +37,7 @@ class CartAPI(APIView):
     def get(self, request, user_id):
         try:
             if user_id:
-                cart = Cart.objects.filter(user__id=user_id)
+                cart = Cart.objects.filter(user__id=user_id, ordered=False)
 
                 if not cart:
                     raise custom_exceptions.CartDoesNotExist('Add to cart at first', 400)

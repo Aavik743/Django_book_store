@@ -19,11 +19,12 @@ class OrderSerializer(serializers.ModelSerializer):
 
         validated_data.update(update_data)
 
-        self.Meta.model.objects.create(**validated_data)
+        cart.ordered = True
+        cart.save()
 
-        # cart.delete()
+        create_query = self.Meta.model.objects.create(**validated_data)
 
-        return validated_data
+        return create_query
 
 
 class GetOrderSerializer(serializers.ModelSerializer):
