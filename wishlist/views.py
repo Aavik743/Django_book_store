@@ -8,7 +8,7 @@ from books.models import Book
 from common import logger, custom_exceptions
 from common.jwt import token_required
 from .models import Wishlist
-from .serializers import AddToWishlist
+from .serializers import WishlistSerializer
 
 
 class AddToWishlistAPI(APIView):
@@ -19,7 +19,7 @@ class AddToWishlistAPI(APIView):
             data = request.data.copy()
             data.update({'user': user_id})
 
-            wishlist_serializer = AddToWishlist(data=data)
+            wishlist_serializer = WishlistSerializer(data=data)
             wishlist_serializer.is_valid(raise_exception=True)
             print(wishlist_serializer.data.get('book'))
             book = Wishlist.objects.get(book=wishlist_serializer.data.get('book'))
@@ -42,7 +42,7 @@ class AddToWishlistAPI(APIView):
                 if not wishlist:
                     raise custom_exceptions.CartDoesNotExist('Add to wishlist at first', 400)
                 if wishlist:
-                    wishlist_serializer = AddToWishlist(wishlist, many=True)
+                    wishlist_serializer = WishlistSerializer(wishlist, many=True)
 
                     return Response({'message': 'cart fetched', 'status_code': 200, 'data': wishlist_serializer.data},
                                     status=status.HTTP_200_OK)
