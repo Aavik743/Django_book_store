@@ -33,18 +33,6 @@ class Book(models.Model):
             logger.logging.error('Log Error Message')
             return user_id
 
-    # @staticmethod
-    # def create_book(validated_data):
-    #     # try:
-    #     book = Book.objects.create_user(validated_data['name'],
-    #                                     validated_data['price'], validated_data['author'],
-    #                                     validated_data['description'], validated_data['book_quantity'])
-    #     return book
-
-    # except BadRequest:
-    #     logger.logging.error('Log Error Message')
-    #     return Response({'error': "something went wrong", 'status code': 400})
-
     @staticmethod
     def check_if_book_exists(validated_data):
         # try:

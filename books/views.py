@@ -71,3 +71,22 @@ class BookAPI(APIView):
         except Exception as e:
             logger.logging.error('Log Error Message')
             return Response({'message': str(e), 'status_code': 400})
+
+
+# class WishlistAPI(APIView):
+#
+#     @method_decorator(token_required)
+#     def post(self, request, user_id, id):
+#         try:
+#             user = User.objects.filter(pk=user_id).first()
+#             if user:
+#                 if id:
+#                     book = Book.objects.get(pk=id)
+#                     book.is_on_wishlist = True
+#                     book.save()
+#                     data = {'book_id': id, 'user_id': user_id}
+#                     return {'message': 'book added to wishlist', 'data': data, 'status_code': 200}
+#         except Exception as e:
+#             logger.logging.error('Log Error Message')
+#             return Response({'message': str(e), 'status_code': 400})
+
