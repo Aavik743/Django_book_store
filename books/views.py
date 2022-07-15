@@ -1,7 +1,7 @@
 from django.utils.decorators import method_decorator
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
+from django.core.paginator import Paginator
 from common import logger
 from common.jwt import token_required
 from .models import Book
@@ -29,7 +29,7 @@ class AddBookAPI(APIView):
 class BookAPI(APIView):
 
     @method_decorator(token_required)
-    def get(self, request, user_id, id):
+    def get(self, request, user_id, id=None):
         try:
             user = User.objects.filter(pk=user_id).first()
             if user:
@@ -73,20 +73,33 @@ class BookAPI(APIView):
             return Response({'message': str(e), 'status_code': 400})
 
 
-# class WishlistAPI(APIView):
-#
-#     @method_decorator(token_required)
-#     def post(self, request, user_id, id):
-#         try:
-#             user = User.objects.filter(pk=user_id).first()
-#             if user:
-#                 if id:
-#                     book = Book.objects.get(pk=id)
-#                     book.is_on_wishlist = True
-#                     book.save()
-#                     data = {'book_id': id, 'user_id': user_id}
-#                     return {'message': 'book added to wishlist', 'data': data, 'status_code': 200}
-#         except Exception as e:
-#             logger.logging.error('Log Error Message')
-#             return Response({'message': str(e), 'status_code': 400})
+class BookByPriceAPI(APIView):
 
+    @method_decorator(token_required)
+    def get(self, request, user_id, page):
+        try:
+            user = User.objects.filter(pk=user_id).first()
+            if user:
+                all_books = Book.objects.all().order_by('price').values()
+                paginator = Paginator(all_books, 2)
+                print(page)
+
+                page_obj = paginator.get_page(page)
+
+                data = []
+                for kw in page_obj.object_list:
+                    data.append({"name": kw.get('name'), "author": kw.get('author'), 'price': kw.get('price'),
+                                 'book_quantity': kw.get('book_quantity')})
+                payload = {
+                    "page": {
+                        "current page": page_obj.number,
+                        "next page exists": page_obj.has_next(),
+                        "previous page exists": page_obj.has_previous(),
+                    },
+                    "data": data
+                }
+
+                return Response({'message': 'fetched books details', 'status_code': 200, 'data': payload})
+        except Exception as e:
+            logger.logging.error('Log Error Message')
+            return Response({'message': str(e), 'status_code': 400})

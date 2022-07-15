@@ -3,8 +3,6 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from accounts.models import User
-from books.models import Book
 from common import logger, custom_exceptions
 from common.jwt import token_required
 from .models import Wishlist
