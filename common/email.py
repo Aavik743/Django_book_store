@@ -22,6 +22,15 @@ class Mail:
         recipient = f'{data["email"]}'
         Mail.send_email(subject, message, sender, recipient)
 
+    @staticmethod
+    def order_notification(data):
+        subject = 'Order Placed'
+        message = f'Hi {data["username"]}, Your order has been placed for book {data["book"]} ' \
+                  f'and the total price is {data["total_price"]}'
+        sender = 'fake.abhik@gmail.com'
+        recipient = f'{data["email"]}'
+        Mail.send_email(subject, message, sender, recipient)
+
 
 def to_send_email(subject, message, sender, recipient):
     send_mail(subject, message, sender,

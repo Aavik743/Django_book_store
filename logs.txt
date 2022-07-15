@@ -7492,3 +7492,73 @@ AttributeError: 'dict' object has no attribute 'name'
 2022-07-15 09:11:39 INFO-Watching for file changes with StatReloader
 2022-07-15 09:14:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\books\urls.py changed, reloading.
 2022-07-15 09:14:32 INFO-Watching for file changes with StatReloader
+2022-07-15 09:21:43 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\books\views.py changed, reloading.
+2022-07-15 09:21:44 INFO-Watching for file changes with StatReloader
+2022-07-15 09:26:08 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\email.py changed, reloading.
+2022-07-15 09:26:09 INFO-Watching for file changes with StatReloader
+2022-07-15 09:26:48 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:26:48 INFO-Watching for file changes with StatReloader
+2022-07-15 09:29:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:29:05 INFO-Watching for file changes with StatReloader
+2022-07-15 09:31:15 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:31:16 INFO-Watching for file changes with StatReloader
+2022-07-15 09:32:04 ERROR-Log Error Message
+2022-07-15 09:33:18 ERROR-Log Error Message
+2022-07-15 09:37:37 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:37:38 INFO-Watching for file changes with StatReloader
+2022-07-15 09:37:40 ERROR-Log Error Message
+2022-07-15 09:38:03 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:38:04 INFO-Watching for file changes with StatReloader
+2022-07-15 09:38:05 ERROR-Log Error Message
+2022-07-15 09:38:51 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:38:52 INFO-Watching for file changes with StatReloader
+2022-07-15 09:38:53 ERROR-Log Error Message
+2022-07-15 09:40:09 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:40:10 INFO-Watching for file changes with StatReloader
+2022-07-15 09:40:14 ERROR-Log Error Message
+2022-07-15 09:40:47 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 09:40:48 INFO-Watching for file changes with StatReloader
+2022-07-15 09:40:55 ERROR-Log Error Message
+2022-07-15 09:41:25 ERROR-Log Error Message
+2022-07-15 09:43:00 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\email.py changed, reloading.
+2022-07-15 09:43:01 INFO-Watching for file changes with StatReloader
+2022-07-15 10:43:11 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:43:12 INFO-Watching for file changes with StatReloader
+2022-07-15 10:44:29 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:44:30 INFO-Watching for file changes with StatReloader
+2022-07-15 10:47:09 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:47:10 INFO-Watching for file changes with StatReloader
+2022-07-15 10:47:19 ERROR-Log Error Message
+2022-07-15 10:47:36 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:47:37 INFO-Watching for file changes with StatReloader
+2022-07-15 10:48:31 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:48:32 INFO-Watching for file changes with StatReloader
+2022-07-15 10:49:22 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:49:23 INFO-Watching for file changes with StatReloader
+2022-07-15 10:49:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:49:36 INFO-Watching for file changes with StatReloader
+2022-07-15 10:51:10 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:51:11 INFO-Watching for file changes with StatReloader
+2022-07-15 10:53:43 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:53:44 INFO-Watching for file changes with StatReloader
+2022-07-15 10:53:54 ERROR-Log Error Message
+2022-07-15 10:54:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:54:36 INFO-Watching for file changes with StatReloader
+2022-07-15 10:54:40 ERROR-Log Error Message
+2022-07-15 10:55:34 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:55:35 INFO-Watching for file changes with StatReloader
+2022-07-15 10:55:38 ERROR-Log Error Message
+2022-07-15 10:56:20 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:56:21 INFO-Watching for file changes with StatReloader
+2022-07-15 10:56:22 ERROR-Log Error Message
+2022-07-15 10:56:29 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:56:30 INFO-Watching for file changes with StatReloader
+2022-07-15 10:57:01 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:57:02 INFO-Watching for file changes with StatReloader
+2022-07-15 10:57:09 ERROR-Log Error Message
+2022-07-15 10:58:09 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:58:09 INFO-Watching for file changes with StatReloader
+2022-07-15 10:58:26 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\orders\views.py changed, reloading.
+2022-07-15 10:58:26 INFO-Watching for file changes with StatReloader
+2022-07-15 10:59:25 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\email.py changed, reloading.
+2022-07-15 10:59:25 INFO-Watching for file changes with StatReloader

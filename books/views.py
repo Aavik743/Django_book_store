@@ -82,7 +82,6 @@ class BookByPriceAPI(APIView):
             if user:
                 all_books = Book.objects.all().order_by('price').values()
                 paginator = Paginator(all_books, 2)
-                print(page)
 
                 page_obj = paginator.get_page(page)
 

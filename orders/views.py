@@ -4,9 +4,11 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from common.jwt import token_required
+from accounts.models import User
+from carts.models import Cart
 from .models import Order
 from .serializers import OrderSerializer, GetOrderSerializer
-from common import logger, custom_exceptions
+from common import logger, custom_exceptions, email
 
 
 class OrderAPI(APIView):
@@ -19,9 +21,13 @@ class OrderAPI(APIView):
 
             order_serializer = OrderSerializer(data=data)
             order_serializer.is_valid(raise_exception=True)
+            # cart = Cart.objects.get(pk=order_serializer.validated_data.get('cart'))
+            cart = (order_serializer.validated_data.get('cart'))
+            email.Mail.order_notification(data={'username': cart.user.username, 'email': cart.user.email,
+                                                'book': cart.book, 'total_price': cart.total_price})
             order_serializer.save()
 
-            return Response({'message': f'order has been placed by user id {user_id}', "status_code": 201,
+            return Response({'message': f'order has been placed by {cart.user.username}', "status_code": 201,
                              "data": order_serializer.data})
         except Exception as e:
             logger.logging.error('Log Error Message')
