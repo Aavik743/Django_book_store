@@ -21,7 +21,6 @@ class OrderAPI(APIView):
 
             order_serializer = OrderSerializer(data=data)
             order_serializer.is_valid(raise_exception=True)
-            # cart = Cart.objects.get(pk=order_serializer.validated_data.get('cart'))
             cart = (order_serializer.validated_data.get('cart'))
             email.Mail.order_notification(data={'username': cart.user.username, 'email': cart.user.email,
                                                 'book': cart.book, 'total_price': cart.total_price})
@@ -38,18 +37,18 @@ class GetOrderAPI(APIView):
 
     @method_decorator(token_required)
     def get(self, request, user_id):
-        # try:
-        if user_id:
-            order = Order.objects.filter(user__id=user_id, cart__ordered=True)
+        try:
+            if user_id:
+                order = Order.objects.filter(user__id=user_id, cart__ordered=True)
 
-            if not order:
-                raise custom_exceptions.CartDoesNotExist('Create order at first', 400)
-            if order:
-                cart_serializer = GetOrderSerializer(order, many=True)
+                if not order:
+                    raise custom_exceptions.CartDoesNotExist('Create order at first', 400)
+                if order:
+                    cart_serializer = GetOrderSerializer(order, many=True)
 
-                return Response({'message': 'cart fetched', 'status_code': 200, 'data': cart_serializer.data},
-                                status=status.HTTP_200_OK)
+                    return Response({'message': 'cart fetched', 'status_code': 200, 'data': cart_serializer.data},
+                                    status=status.HTTP_200_OK)
 
-    # except Exception as e:
-    #     logger.logging.error('Log Error Message')
-    #     return Response({'message': str(e), 'status_code': 400})
+        except Exception as e:
+            logger.logging.error('Log Error Message')
+            return Response({'message': str(e), 'status_code': 400})
