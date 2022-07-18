@@ -1,4 +1,6 @@
 from django.utils.decorators import method_decorator
+from drf_yasg.utils import swagger_auto_schema
+from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.core.paginator import Paginator
@@ -7,11 +9,14 @@ from common.jwt import token_required
 from .models import Book
 from .serializers import AddBookSerializer, BookSerializer
 from accounts.models import User
+from django.views.decorators.cache import cache_page
 
 
 class AddBookAPI(APIView):
 
-    @method_decorator(token_required)
+    # @swagger_auto_schema(request_body=AddBookSerializer, responses={200: "Success"})
+    # @method_decorator(token_required)
+    @token_required
     def post(self, request, user_id):
         try:
             superuser = Book.validate_superuser(user_id)
@@ -27,7 +32,9 @@ class AddBookAPI(APIView):
 
 
 class BookAPI(APIView):
-
+    # @swagger_auto_schema(responses={200: "Success"})
+    @action(detail=False, method=['GET'])
+    @method_decorator(cache_page(60 * 60))
     @method_decorator(token_required)
     def get(self, request, user_id, id=None):
         try:
@@ -76,6 +83,7 @@ class BookAPI(APIView):
 class BookByPriceAPI(APIView):
 
     @method_decorator(token_required)
+    @method_decorator(cache_page(60 * 60))
     def get(self, request, user_id, page):
         try:
             user = User.objects.filter(pk=user_id).first()

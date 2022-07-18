@@ -14,7 +14,9 @@ def get_tokens_for_user(user):
 def token_required(f):
     @wraps(f)
     def token_decode(request, *args, **kwargs):
-        short_token = request.headers.get('Token')
+        # short_token = request.headers.get('Token')
+        print(request.META)
+        _, short_token = request.META.get('HTTP_AUTHORIZATION').split(' ')
         if not short_token:
             short_token = request.query_params.get('token')
         if not short_token:
