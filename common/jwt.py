@@ -8,15 +8,15 @@ from book_store.settings import SECRET_KEY
 
 def get_tokens_for_user(user):
     refresh = RefreshToken.for_user(user)
-    return {'access token': str(refresh.access_token)}
+    return {'access_token': str(refresh.access_token)}
 
 
 def token_required(f):
     @wraps(f)
     def token_decode(request, *args, **kwargs):
-        short_token = request.headers.get('Token')
+        short_token = request.headers.get('Authorization')
         if not short_token:
-            short_token = request.query_params.get('token')
+            short_token = request.query_params.get('Authorization')
         if not short_token:
             return {'Error': 'Token is missing!', 'Status Code': 400}
 

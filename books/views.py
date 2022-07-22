@@ -1,4 +1,5 @@
 from django.utils.decorators import method_decorator
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.core.paginator import Paginator
@@ -11,6 +12,7 @@ from accounts.models import User
 
 class AddBookAPI(APIView):
 
+    @swagger_auto_schema(request_body=AddBookSerializer, responses={200: "Success"})
     @method_decorator(token_required)
     def post(self, request, user_id):
         try:
@@ -44,6 +46,7 @@ class BookAPI(APIView):
             logger.logging.error('Log Error Message')
             return Response({'message': str(e), 'status_code': 400})
 
+    @swagger_auto_schema(request_body=BookSerializer, responses={200: "Success"})
     @method_decorator(token_required)
     def patch(self, request, user_id, id):
         try:
