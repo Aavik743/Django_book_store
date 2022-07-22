@@ -10,11 +10,12 @@ class BooksAppTestCases(APITestCase):
 
     def setUp(self):
         self.user1 = User.objects.create(first_name="A", last_name='H', username='active_superuser',
-                            email='emailAH@gmail.com', password='12345', is_superuser=True, is_active=True)
+                                         email='emailAH@gmail.com', password='12345', is_superuser=True, is_active=True)
         self.user2 = User.objects.create(first_name="C", last_name='D', username='active_not_superuser',
-                            email='emailCD@gmail.com', password='12345', is_superuser=False, is_active=True)
+                                         email='emailCD@gmail.com', password='12345', is_superuser=False,
+                                         is_active=True)
         self.user3 = User.objects.create(first_name="H", last_name='A', username='not_active',
-                            email='emailHA@gmail.com', password='12345', is_active=False)
+                                         email='emailHA@gmail.com', password='12345', is_active=False)
 
     def test_add_book_api_pass(self):
         client = APIClient()
@@ -33,4 +34,4 @@ class BooksAppTestCases(APITestCase):
 
         response = client.post(reverse('add_book'), book, **header)
         print("--->>", response.data)
-
+        self.assertEqual(1, 1)

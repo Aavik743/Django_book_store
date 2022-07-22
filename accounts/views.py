@@ -60,7 +60,7 @@ class LoginAPI(APIView):
     def post(self, request):
         try:
             serialized_data = LoginSerializer(data=request.data)
-            if serialized_data.is_valid():
+            if serialized_data.is_valid(raise_exception=True):
                 user = serialized_data.get_user(serialized_data.data)
                 check_user = authenticate(username=serialized_data.data.get('username'),
                                           password=serialized_data.data.get('password'))
