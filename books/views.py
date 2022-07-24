@@ -3,6 +3,7 @@ from drf_yasg.utils import swagger_auto_schema
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.core.paginator import Paginator
+from django.core.exceptions import BadRequest
 from common import logger
 from common.jwt import token_required
 from .models import Book
@@ -23,9 +24,10 @@ class AddBookAPI(APIView):
                 book_s.is_valid(raise_exception=True)
                 book_s.save()
                 return Response({'message': 'book added', 'status_code': 200, 'data': book_s.data})
-        except Exception as e:
+            return Response({'message': 'Admin access required', 'status_code': 400})
+        except BadRequest:
             logger.logging.error('Log Error Message')
-            return Response({'message': str(e), 'status_code': 400})
+            return Response({'message': 'something went wrong', 'status_code': 400})
 
 
 class BookAPI(APIView):
@@ -34,7 +36,7 @@ class BookAPI(APIView):
     def get(self, request, user_id, id=None):
         try:
             user = User.objects.filter(pk=user_id).first()
-            if user:
+            if user.is_active:
                 if id:
                     book = Book.objects.get(pk=id)
                     book_s = BookSerializer(book)
@@ -42,6 +44,7 @@ class BookAPI(APIView):
                 all_books = Book.objects.all()
                 book_s = BookSerializer(all_books, many=True)
                 return Response({'message': 'fetched all books details', 'status_code': 200, 'data': book_s.data})
+            return Response({'message': 'activate your account and login', 'status_code': 400})
         except Exception as e:
             logger.logging.error('Log Error Message')
             return Response({'message': str(e), 'status_code': 400})
@@ -58,6 +61,7 @@ class BookAPI(APIView):
                     book_s.is_valid(raise_exception=True)
                     book_s.save()
                     return Response({'message': 'book details updated', 'status_code': 200, 'data': book_s.data})
+            return Response({'message': 'Admin access required', 'status_code': 400})
         except Exception as e:
             logger.logging.error('Log Error Message')
             return Response({'message': str(e), 'status_code': 400})
@@ -71,6 +75,7 @@ class BookAPI(APIView):
                 if book:
                     book.delete()
                     return Response({'message': 'book deleted', 'status_code': 200})
+            return Response({'message': 'Admin access required', 'status_code': 400})
         except Exception as e:
             logger.logging.error('Log Error Message')
             return Response({'message': str(e), 'status_code': 400})

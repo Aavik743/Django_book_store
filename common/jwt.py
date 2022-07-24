@@ -25,7 +25,7 @@ def token_required(f):
             token = raw_token(short_token)
         else:
             token = short_token
-        data = decode(token, SECRET_KEY, 'HS256')
+        data = decode(token, SECRET_KEY, ['HS256'])
         user_id = data['user_id']
         return f(request, user_id, *args, **kwargs)
 
