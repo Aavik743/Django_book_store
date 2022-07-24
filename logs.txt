@@ -9771,3 +9771,284 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 2022-07-22 08:56:25 WARNING-Unauthorized: /login/
 2022-07-22 08:59:44 WARNING-Unauthorized: /login/
 2022-07-22 09:02:03 WARNING-Bad Request: /change/
+2022-07-22 09:52:59 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-22 09:53:00 INFO-Watching for file changes with StatReloader
+2022-07-23 00:43:57 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:44:53 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-23 00:44:54 INFO-Watching for file changes with StatReloader
+2022-07-23 00:44:57 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:47:20 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:49:48 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-23 00:49:49 INFO-Watching for file changes with StatReloader
+2022-07-23 00:49:52 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:51:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-23 00:51:06 INFO-Watching for file changes with StatReloader
+2022-07-23 00:51:08 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:51:54 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:52:53 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:53:22 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:54:00 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:55:46 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-23 00:55:48 INFO-Watching for file changes with StatReloader
+2022-07-23 00:55:50 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:55:56 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:56:11 INFO-Watching for file changes with StatReloader
+2022-07-23 00:56:15 ERROR-Internal Server Error: /change/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-23 00:58:04 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-23 00:58:05 INFO-Watching for file changes with StatReloader
+2022-07-23 00:59:40 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-23 00:59:41 INFO-Watching for file changes with StatReloader
+2022-07-23 01:00:25 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\books\views.py changed, reloading.
+2022-07-23 01:00:26 INFO-Watching for file changes with StatReloader
+2022-07-23 01:01:06 WARNING-Bad Request: /change/
+2022-07-23 08:56:12 INFO-Watching for file changes with StatReloader
+2022-07-23 08:56:26 WARNING-Bad Request: /change/
+2022-07-24 02:16:34 WARNING-Unauthorized: /login/
+2022-07-24 02:16:34 ERROR-Internal Server Error: /addbook/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-24 02:17:32 WARNING-Unauthorized: /login/
+2022-07-24 02:17:32 ERROR-Internal Server Error: /addbook/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-07-24 13:16:56 WARNING-Unauthorized: /login/
+2022-07-24 13:18:43 ERROR-Internal Server Error: /forgot/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py", line 90, in post
+    short_token = modified_token(token)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 36, in modified_token
+    token_string_bytes = token.encode("ascii")
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-07-24 13:18:43 WARNING-Unauthorized: /login/
+2022-07-24 13:21:06 ERROR-Internal Server Error: /forgot/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py", line 90, in post
+    short_token = modified_token(token)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\jwt.py", line 36, in modified_token
+    token_string_bytes = token.encode("ascii")
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-07-24 13:21:06 WARNING-Unauthorized: /login/
