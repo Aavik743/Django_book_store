@@ -10354,3 +10354,307 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 2022-07-24 20:45:20 ERROR-Log Error Message
 2022-07-24 20:46:45 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\books\views.py changed, reloading.
 2022-07-24 20:46:46 INFO-Watching for file changes with StatReloader
+2022-07-24 20:48:28 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\books\urls.py changed, reloading.
+2022-07-24 20:48:29 INFO-Watching for file changes with StatReloader
+2022-07-24 20:52:28 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-24 20:52:29 INFO-Watching for file changes with StatReloader
+2022-07-24 20:53:15 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\models.py changed, reloading.
+2022-07-24 20:53:16 INFO-Watching for file changes with StatReloader
+2022-07-24 20:57:14 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\books\models.py changed, reloading.
+2022-07-24 20:57:15 INFO-Watching for file changes with StatReloader
+2022-07-24 22:36:26 ERROR-Log Error Message
+2022-07-24 22:36:26 WARNING-Bad Request: /cart/
+2022-07-24 22:42:12 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\urls.py changed, reloading.
+2022-07-24 22:42:13 INFO-Watching for file changes with StatReloader
+2022-07-24 22:44:54 ERROR-Log Error Message
+2022-07-24 22:50:09 ERROR-Log Error Message
+2022-07-24 22:50:31 WARNING-Method Not Allowed: /cart/
+2022-07-24 22:51:21 WARNING-Method Not Allowed: /cart/
+2022-07-24 22:51:51 WARNING-Method Not Allowed: /cart/
+2022-07-25 08:19:36 ERROR-Log Error Message
+2022-07-25 08:19:36 WARNING-Bad Request: /addcart/
+2022-07-25 08:19:36 ERROR-Log Error Message
+2022-07-25 08:42:38 ERROR-Log Error Message
+2022-07-25 08:42:38 WARNING-Bad Request: /addcart/
+2022-07-25 08:42:38 ERROR-Log Error Message
+2022-07-25 08:44:46 ERROR-Log Error Message
+2022-07-25 08:44:46 WARNING-Bad Request: /addcart/
+2022-07-25 08:44:47 ERROR-Log Error Message
+2022-07-25 08:46:54 ERROR-Log Error Message
+2022-07-25 08:46:54 WARNING-Bad Request: /addcart/
+2022-07-25 08:46:54 ERROR-Log Error Message
+2022-07-25 08:47:14 ERROR-Log Error Message
+2022-07-25 08:47:14 WARNING-Bad Request: /addcart/
+2022-07-25 08:47:14 ERROR-Log Error Message
+2022-07-25 08:48:29 ERROR-Log Error Message
+2022-07-25 08:48:29 WARNING-Bad Request: /addcart/
+2022-07-25 08:48:30 ERROR-Log Error Message
+2022-07-25 08:50:01 ERROR-Log Error Message
+2022-07-25 08:50:01 WARNING-Bad Request: /addcart/
+2022-07-25 08:50:01 ERROR-Log Error Message
+2022-07-25 08:51:28 ERROR-Log Error Message
+2022-07-25 08:51:28 WARNING-Bad Request: /addcart/
+2022-07-25 08:51:28 ERROR-Log Error Message
+2022-07-25 08:58:50 ERROR-Log Error Message
+2022-07-25 08:58:50 WARNING-Bad Request: /addcart/
+2022-07-25 08:59:47 ERROR-Log Error Message
+2022-07-25 08:59:47 WARNING-Bad Request: /addcart/
+2022-07-25 08:59:47 ERROR-Log Error Message
+2022-07-25 09:02:26 ERROR-Log Error Message
+2022-07-25 09:02:26 WARNING-Bad Request: /addcart/
+2022-07-25 09:02:27 ERROR-Log Error Message
+2022-07-25 09:06:22 ERROR-Log Error Message
+2022-07-25 09:06:22 WARNING-Bad Request: /addcart/
+2022-07-25 09:06:53 ERROR-Log Error Message
+2022-07-25 09:06:53 WARNING-Bad Request: /addcart/
+2022-07-25 09:06:53 ERROR-Log Error Message
+2022-07-25 09:06:53 WARNING-Bad Request: /addcart/
+2022-07-25 09:06:53 ERROR-Log Error Message
+2022-07-25 09:12:37 ERROR-Log Error Message
+2022-07-25 09:12:37 WARNING-Bad Request: /addcart/
+2022-07-25 09:12:37 ERROR-Log Error Message
+2022-07-25 09:12:37 WARNING-Bad Request: /addcart/
+2022-07-25 09:15:53 ERROR-Log Error Message
+2022-07-25 09:15:53 WARNING-Bad Request: /addcart/
+2022-07-25 09:16:27 ERROR-Log Error Message
+2022-07-25 09:16:27 WARNING-Bad Request: /addcart/
+2022-07-25 09:16:28 ERROR-Log Error Message
+2022-07-25 09:16:28 WARNING-Bad Request: /addcart/
+2022-07-25 09:17:45 ERROR-Log Error Message
+2022-07-25 09:17:45 WARNING-Bad Request: /addcart/
+2022-07-25 09:17:45 ERROR-Log Error Message
+2022-07-25 09:20:43 ERROR-Log Error Message
+2022-07-25 09:20:43 WARNING-Bad Request: /addcart/
+2022-07-25 09:20:44 ERROR-Log Error Message
+2022-07-25 09:20:44 WARNING-Bad Request: /addcart/
+2022-07-25 09:20:44 ERROR-Log Error Message
+2022-07-25 09:27:11 ERROR-Log Error Message
+2022-07-25 09:27:11 WARNING-Bad Request: /addcart/
+2022-07-25 09:27:36 ERROR-Log Error Message
+2022-07-25 09:27:36 WARNING-Bad Request: /addcart/
+2022-07-25 09:28:04 ERROR-Log Error Message
+2022-07-25 09:28:04 WARNING-Bad Request: /addcart/
+2022-07-25 09:28:04 ERROR-Log Error Message
+2022-07-25 09:28:50 ERROR-Log Error Message
+2022-07-25 09:28:50 WARNING-Bad Request: /addcart/
+2022-07-25 09:28:51 ERROR-Log Error Message
+2022-07-25 09:28:51 WARNING-Bad Request: /addcart/
+2022-07-25 09:28:51 ERROR-Log Error Message
+2022-07-25 09:29:57 ERROR-Log Error Message
+2022-07-25 09:29:57 WARNING-Bad Request: /addcart/
+2022-07-25 09:29:57 ERROR-Log Error Message
+2022-07-25 09:29:57 WARNING-Bad Request: /addcart/
+2022-07-25 09:29:57 ERROR-Log Error Message
+2022-07-25 09:33:12 ERROR-Log Error Message
+2022-07-25 09:33:12 WARNING-Bad Request: /addcart/
+2022-07-25 09:34:11 ERROR-Log Error Message
+2022-07-25 09:34:11 WARNING-Bad Request: /addcart/
+2022-07-25 09:34:12 ERROR-Log Error Message
+2022-07-25 09:34:38 ERROR-Log Error Message
+2022-07-25 09:34:38 WARNING-Bad Request: /addcart/
+2022-07-25 09:34:38 ERROR-Log Error Message
+2022-07-25 09:35:11 ERROR-Log Error Message
+2022-07-25 09:35:11 WARNING-Bad Request: /addcart/
+2022-07-25 09:37:00 ERROR-Log Error Message
+2022-07-25 09:37:00 WARNING-Bad Request: /addcart/
+2022-07-25 09:52:42 ERROR-Log Error Message
+2022-07-25 09:52:42 WARNING-Bad Request: /addcart/
+2022-07-25 09:52:43 ERROR-Log Error Message
+2022-07-25 09:52:43 WARNING-Bad Request: /cart/
+2022-07-25 09:53:17 ERROR-Log Error Message
+2022-07-25 09:53:17 WARNING-Bad Request: /addcart/
+2022-07-25 09:53:18 ERROR-Log Error Message
+2022-07-25 09:53:18 WARNING-Bad Request: /cart/
+2022-07-25 09:56:45 ERROR-Log Error Message
+2022-07-25 09:56:45 WARNING-Bad Request: /addcart/
+2022-07-25 09:56:46 ERROR-Log Error Message
+2022-07-25 09:56:46 WARNING-Bad Request: /cart/
+2022-07-25 09:57:08 ERROR-Log Error Message
+2022-07-25 09:57:08 WARNING-Bad Request: /addcart/
+2022-07-25 09:57:09 ERROR-Log Error Message
+2022-07-25 09:57:09 WARNING-Bad Request: /cart/
+2022-07-25 09:58:07 ERROR-Log Error Message
+2022-07-25 09:58:07 WARNING-Bad Request: /addcart/
+2022-07-25 09:58:08 ERROR-Log Error Message
+2022-07-25 09:59:17 ERROR-Log Error Message
+2022-07-25 09:59:17 WARNING-Bad Request: /addcart/
+2022-07-25 09:59:17 ERROR-Log Error Message
+2022-07-25 09:59:18 ERROR-Log Error Message
+2022-07-25 09:59:18 WARNING-Bad Request: /cart/
+2022-07-25 09:59:57 ERROR-Log Error Message
+2022-07-25 09:59:57 WARNING-Bad Request: /addcart/
+2022-07-25 09:59:57 ERROR-Log Error Message
+2022-07-25 09:59:58 ERROR-Log Error Message
+2022-07-25 09:59:58 WARNING-Bad Request: /cart/
+2022-07-25 10:03:56 ERROR-Log Error Message
+2022-07-25 10:03:56 WARNING-Bad Request: /addcart/
+2022-07-25 10:03:56 ERROR-Log Error Message
+2022-07-25 10:03:57 ERROR-Log Error Message
+2022-07-25 10:03:57 WARNING-Bad Request: /cart/
+2022-07-25 10:05:30 ERROR-Log Error Message
+2022-07-25 10:05:30 WARNING-Bad Request: /addcart/
+2022-07-25 10:05:30 ERROR-Log Error Message
+2022-07-25 10:07:13 ERROR-Log Error Message
+2022-07-25 10:07:13 WARNING-Bad Request: /addcart/
+2022-07-25 10:07:13 ERROR-Log Error Message
+2022-07-25 10:07:14 ERROR-Log Error Message
+2022-07-25 10:07:14 WARNING-Bad Request: /cart/
+2022-07-25 10:09:25 ERROR-Log Error Message
+2022-07-25 10:09:25 WARNING-Bad Request: /addcart/
+2022-07-25 10:09:26 ERROR-Log Error Message
+2022-07-25 10:09:27 ERROR-Log Error Message
+2022-07-25 10:11:11 INFO-Watching for file changes with StatReloader
+2022-07-25 10:12:15 WARNING-Not Found: /updatecart/
+2022-07-25 10:15:38 ERROR-Log Error Message
+2022-07-25 10:15:38 WARNING-Bad Request: /addcart/
+2022-07-25 10:15:38 ERROR-Log Error Message
+2022-07-25 10:15:39 ERROR-Log Error Message
+2022-07-25 10:16:27 ERROR-Log Error Message
+2022-07-25 10:16:27 WARNING-Bad Request: /addcart/
+2022-07-25 10:16:27 ERROR-Log Error Message
+2022-07-25 10:16:28 ERROR-Log Error Message
+2022-07-25 10:32:00 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\urls.py changed, reloading.
+2022-07-25 10:32:01 INFO-Watching for file changes with StatReloader
+2022-07-25 10:32:06 ERROR-Log Error Message
+2022-07-25 10:32:06 WARNING-Bad Request: /addcart/
+2022-07-25 10:32:06 ERROR-Log Error Message
+2022-07-25 10:32:07 ERROR-Log Error Message
+2022-07-25 10:34:46 ERROR-Log Error Message
+2022-07-25 10:34:46 WARNING-Bad Request: /addcart/
+2022-07-25 10:34:46 ERROR-Log Error Message
+2022-07-25 10:34:47 ERROR-Log Error Message
+2022-07-25 10:34:47 WARNING-Bad Request: /cart/>
+2022-07-25 11:09:33 ERROR-Log Error Message
+2022-07-25 11:09:33 ERROR-Log Error Message
+2022-07-25 11:10:18 ERROR-Log Error Message
+2022-07-25 11:10:19 ERROR-Log Error Message
+2022-07-25 11:12:00 ERROR-Log Error Message
+2022-07-25 11:12:31 ERROR-Log Error Message
+2022-07-25 11:12:31 ERROR-Log Error Message
+2022-07-25 11:12:56 ERROR-Log Error Message
+2022-07-25 11:12:56 ERROR-Log Error Message
+2022-07-25 11:19:42 ERROR-Log Error Message
+2022-07-25 11:19:42 ERROR-Log Error Message
+2022-07-25 11:20:06 ERROR-Log Error Message
+2022-07-25 11:22:26 ERROR-Log Error Message
+2022-07-25 11:23:08 ERROR-Log Error Message
+2022-07-25 11:23:28 ERROR-Log Error Message
+2022-07-25 11:23:29 ERROR-Log Error Message
+2022-07-25 11:29:52 ERROR-Log Error Message
+2022-07-25 11:30:35 ERROR-Log Error Message
+2022-07-25 11:30:35 ERROR-Log Error Message
+2022-07-25 11:36:45 ERROR-Log Error Message
+2022-07-25 16:52:01 ERROR-Log Error Message
+2022-07-25 16:53:20 ERROR-Log Error Message
+2022-07-25 16:55:29 ERROR-Log Error Message
+2022-07-25 16:56:41 ERROR-Log Error Message
+2022-07-25 16:56:42 ERROR-Log Error Message
+2022-07-25 17:08:54 ERROR-Log Error Message
+2022-07-25 17:08:54 WARNING-Bad Request: /wishlist/
+2022-07-25 17:09:26 ERROR-Log Error Message
+2022-07-25 17:09:26 WARNING-Bad Request: /wishlist/
+2022-07-25 17:09:49 ERROR-Log Error Message
+2022-07-25 17:09:49 WARNING-Bad Request: /wishlist/
+2022-07-25 17:10:54 ERROR-Log Error Message
+2022-07-25 17:10:54 WARNING-Bad Request: /wishlist/
+2022-07-25 17:12:45 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\wishlist\views.py changed, reloading.
+2022-07-25 17:12:48 INFO-Watching for file changes with StatReloader
+2022-07-25 17:12:52 ERROR-Log Error Message
+2022-07-25 17:12:52 WARNING-Bad Request: /wishlist/
+2022-07-25 17:13:33 ERROR-Log Error Message
+2022-07-25 17:13:33 WARNING-Bad Request: /wishlist/
+2022-07-25 17:14:35 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\wishlist\views.py changed, reloading.
+2022-07-25 17:14:37 INFO-Watching for file changes with StatReloader
+2022-07-25 17:15:17 ERROR-Log Error Message
+2022-07-25 17:15:17 WARNING-Bad Request: /wishlist/
+2022-07-25 17:15:25 ERROR-Log Error Message
+2022-07-25 17:15:25 WARNING-Bad Request: /wishlist/
+2022-07-25 17:17:13 ERROR-Log Error Message
+2022-07-25 17:17:13 WARNING-Bad Request: /wishlist/
+2022-07-26 08:18:50 WARNING-Unauthorized: /login/
+2022-07-26 08:18:54 ERROR-Log Error Message
+2022-07-26 08:18:55 ERROR-Log Error Message
+2022-07-26 08:18:57 ERROR-Log Error Message
+2022-07-26 08:18:58 ERROR-Log Error Message
+2022-07-26 08:18:58 WARNING-Bad Request: /addcart/
+2022-07-26 08:18:59 ERROR-Log Error Message
+2022-07-26 08:18:59 ERROR-Log Error Message
+2022-07-26 08:19:00 ERROR-Log Error Message
+2022-07-26 08:19:00 WARNING-Bad Request: /wishlist/
+2022-07-26 08:26:46 WARNING-Unauthorized: /login/
+2022-07-26 08:26:50 ERROR-Log Error Message
+2022-07-26 08:26:51 ERROR-Log Error Message
+2022-07-26 08:26:52 ERROR-Log Error Message
+2022-07-26 08:26:54 ERROR-Log Error Message
+2022-07-26 08:26:54 WARNING-Bad Request: /addcart/
+2022-07-26 08:26:54 ERROR-Log Error Message
+2022-07-26 08:26:55 ERROR-Log Error Message
+2022-07-26 08:26:55 ERROR-Log Error Message
+2022-07-26 08:26:55 WARNING-Bad Request: /wishlist/
+2022-07-26 08:30:33 WARNING-Unauthorized: /login/
+2022-07-26 08:30:38 ERROR-Log Error Message
+2022-07-26 08:30:39 ERROR-Log Error Message
+2022-07-26 08:30:40 ERROR-Log Error Message
+2022-07-26 08:30:42 ERROR-Log Error Message
+2022-07-26 08:30:42 WARNING-Bad Request: /addcart/
+2022-07-26 08:30:42 ERROR-Log Error Message
+2022-07-26 08:30:43 ERROR-Log Error Message
+2022-07-26 08:30:43 ERROR-Log Error Message
+2022-07-26 08:30:43 WARNING-Bad Request: /wishlist/
+2022-07-26 08:32:56 WARNING-Unauthorized: /login/
+2022-07-26 08:33:00 ERROR-Log Error Message
+2022-07-26 08:33:01 ERROR-Log Error Message
+2022-07-26 08:33:03 ERROR-Log Error Message
+2022-07-26 08:33:04 ERROR-Log Error Message
+2022-07-26 08:33:04 WARNING-Bad Request: /addcart/
+2022-07-26 08:33:05 ERROR-Log Error Message
+2022-07-26 08:33:06 ERROR-Log Error Message
+2022-07-26 08:33:06 WARNING-Bad Request: /wishlist/
+2022-07-26 08:35:59 WARNING-Unauthorized: /login/
+2022-07-26 08:36:29 WARNING-Unauthorized: /login/
+2022-07-26 08:36:33 ERROR-Log Error Message
+2022-07-26 08:36:34 ERROR-Log Error Message
+2022-07-26 08:36:36 ERROR-Log Error Message
+2022-07-26 08:36:37 ERROR-Log Error Message
+2022-07-26 08:36:37 WARNING-Bad Request: /addcart/
+2022-07-26 08:36:38 ERROR-Log Error Message
+2022-07-26 08:36:38 ERROR-Log Error Message
+2022-07-26 08:36:39 ERROR-Log Error Message
+2022-07-26 08:36:39 ERROR-Log Error Message
+2022-07-26 08:36:39 ERROR-Log Error Message
+2022-07-26 08:36:39 WARNING-Bad Request: /wishlist/
+2022-07-26 08:39:07 WARNING-Unauthorized: /login/
+2022-07-26 08:39:11 ERROR-Log Error Message
+2022-07-26 08:39:12 ERROR-Log Error Message
+2022-07-26 08:39:14 ERROR-Log Error Message
+2022-07-26 08:39:15 ERROR-Log Error Message
+2022-07-26 08:39:15 WARNING-Bad Request: /addcart/
+2022-07-26 08:39:15 ERROR-Log Error Message
+2022-07-26 08:39:16 ERROR-Log Error Message
+2022-07-26 08:39:16 ERROR-Log Error Message
+2022-07-26 08:39:17 ERROR-Log Error Message
+2022-07-26 08:39:17 ERROR-Log Error Message
+2022-07-26 08:39:17 WARNING-Bad Request: /wishlist/
+2022-07-26 08:45:51 ERROR-Log Error Message
+2022-07-26 08:45:51 ERROR-Log Error Message
+2022-07-26 08:46:40 ERROR-Log Error Message
+2022-07-26 08:46:40 ERROR-Log Error Message
+2022-07-26 08:47:32 ERROR-Log Error Message
+2022-07-26 08:47:32 ERROR-Log Error Message
+2022-07-26 08:48:10 ERROR-Log Error Message
+2022-07-26 08:48:11 ERROR-Log Error Message
+2022-07-26 08:48:11 ERROR-Log Error Message
+2022-07-26 08:48:35 ERROR-Log Error Message
+2022-07-26 08:48:35 ERROR-Log Error Message
+2022-07-26 08:48:36 ERROR-Log Error Message
+2022-07-26 08:49:51 ERROR-Log Error Message
+2022-07-26 08:49:51 WARNING-Bad Request: /wishlist/
+2022-07-26 08:51:57 ERROR-Log Error Message
+2022-07-26 08:51:57 WARNING-Bad Request: /wishlist/
+2022-07-26 08:55:34 ERROR-Log Error Message
+2022-07-26 08:55:34 WARNING-Bad Request: /wishlist/
+2022-07-26 08:59:00 ERROR-Log Error Message
+2022-07-26 08:59:00 WARNING-Bad Request: /wishlist/
+2022-07-26 08:59:00 ERROR-Log Error Message
+2022-07-26 17:01:50 ERROR-Log Error Message
+2022-07-26 17:01:50 WARNING-Bad Request: /wishlist/

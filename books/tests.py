@@ -1,9 +1,8 @@
 from django.urls import reverse
-from rest_framework import status
-from rest_framework.test import APITestCase, APIClient
+from rest_framework.test import APITestCase
 
-from .models import Book
 from accounts.models import User
+from .models import Book
 
 
 def create_book():

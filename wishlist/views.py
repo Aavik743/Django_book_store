@@ -19,7 +19,6 @@ class AddToWishlistAPI(APIView):
 
             wishlist_serializer = WishlistSerializer(data=data)
             wishlist_serializer.is_valid(raise_exception=True)
-            print(wishlist_serializer.data.get('book'))
             book = Wishlist.objects.get(book=wishlist_serializer.data.get('book'))
             if book:
                 raise custom_exceptions.BookAlreadyExists('book already exists in your wishlist', 400)
@@ -42,7 +41,7 @@ class AddToWishlistAPI(APIView):
                 if wishlist:
                     wishlist_serializer = WishlistSerializer(wishlist, many=True)
 
-                    return Response({'message': 'cart fetched', 'status_code': 200, 'data': wishlist_serializer.data},
+                    return Response({'message': 'wishlist fetched', 'status_code': 200, 'data': wishlist_serializer.data},
                                     status=status.HTTP_200_OK)
 
         except Exception as e:
