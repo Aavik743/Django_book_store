@@ -21,19 +21,6 @@ class OrderAppTestCases(APITestCase):
                                         description="This is a story book", book_quantity=10)
         self.cart = Cart.objects.create(book=self.book, book_quantity=1, total_price=self.book.price, user=self.user1)
 
-    def place_order(self):
-        order_data = {
-            "cart": self.cart,
-            "address": "city name",
-            "book_quantity": self.cart.book_quantity,
-            "total_price": self.cart.total_price,
-            "book_id": self.cart.book.id,
-            "user_id": self.user1.id
-        }
-
-        order = Order.objects.create(**order_data)
-        return order
-
     def test_place_order_api_pass(self):
         order_data = {
             "cart": self.cart.id,
@@ -57,7 +44,18 @@ class OrderAppTestCases(APITestCase):
         self.assertEqual(response.data.get('message'), "('Create order at first', 400)")
         self.assertEqual(response.data.get('status_code'), 400)
 
-    # def test_get_order_api_pass(self):
-    #     self.place_order()
-    #     response = self.client.get(reverse('get-orders'), **self.header)
-    #     print(response.data)
+    def test_get_order_api_pass(self):
+        order_data = {
+            "cart": self.cart.id,
+            "address": "city name",
+            "book_quantity": self.cart.book_quantity,
+            "total_price": self.cart.total_price,
+            "book_id": self.book.id,
+            "user_id": self.user1.id
+        }
+
+        self.client.post(reverse('checkout'), order_data, **self.header)
+        response = self.client.get(reverse('get-orders'), **self.header)
+        self.assertEqual(response.data.get('status_code'), 200)
+        self.assertEqual(response.data.get('message'), 'cart fetched')
+
