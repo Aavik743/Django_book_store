@@ -1,16 +1,17 @@
-from django.contrib.auth import login, logout
+from django.contrib.auth import logout, authenticate
 from django.contrib.sites.shortcuts import get_current_site
 from django.core.exceptions import BadRequest
 from django.urls import reverse
 from django.utils.decorators import method_decorator
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from common.email import to_send_email, Mail
 from common import logger
+from common.email import to_send_email, Mail
 from common.jwt import get_tokens_for_user, token_required, modified_token
 from .models import User
-from .serializers import RegistrationSerializer, LoginSerializer, ForgotPasswordSerializer, ChangePasswordSerializer
+from .serializers import RegistrationSerializer, LoginSerializer, ForgotPasswordSerializer
 
 
 class RegistrationAPI(APIView):
@@ -18,9 +19,9 @@ class RegistrationAPI(APIView):
     def post(self, request):
         try:
             serializer = RegistrationSerializer(data=request.data)
-            if serializer.is_valid():
+            if serializer.is_valid(raise_exception=True):
                 user = serializer.save()
-                token = get_tokens_for_user(user).get('access token')
+                token = get_tokens_for_user(user).get('access_token')
                 short_token = modified_token(token)
 
                 current_site = get_current_site(request).domain
@@ -31,18 +32,9 @@ class RegistrationAPI(APIView):
                 data_ = {'Activation Link': url, 'token': token, 'short_token': short_token}
                 logger.logging.info('User account registered')
                 return Response({'message': 'activate your account', 'status_code': 200, 'data': data_})
-        except Exception as e:
+        except BadRequest as e:
             logger.logging.error(e)
-            return Response({'message': str(e), 'status_code': 400}, status=400)
-
-        # {
-        # "first_name": "f_name1",
-        # "last_name": "l_name1",
-        # "username": "username1",
-        # "email": "email1@gmail.com",
-        # "password": "12345",
-        # "confirm_password": "12345"
-        # }
+            return Response({'message': 'Something went wrong', 'status_code': 400}, status=400)
 
 
 class ActivationAPI(APIView):
@@ -56,7 +48,7 @@ class ActivationAPI(APIView):
             user.is_active = True
             user.save()
             logger.logging.info('User account activated')
-            return Response({'Message': f'{user.username} your account has been activated', 'Status Code': 200})
+            return Response({'message': f'{user.username} your account has been activated', 'Status Code': 200})
         except BadRequest:
             logger.logging.error('Log Error Message')
             return Response({'Error': "Something went wrong", 'Status Code': 400})
@@ -64,27 +56,25 @@ class ActivationAPI(APIView):
 
 class LoginAPI(APIView):
 
+    @swagger_auto_schema(request_body=LoginSerializer, responses={200: "Success"})
     def post(self, request):
         try:
-            data = request.data
-            serialized_data = LoginSerializer(data=data)
-            if serialized_data.is_valid():
+            serialized_data = LoginSerializer(data=request.data)
+            if serialized_data.is_valid(raise_exception=True):
                 user = serialized_data.get_user(serialized_data.data)
-                if not user:
-                    return Response({'Error': 'Improper username', 'Status Code': 400})
-                if user.password == serialized_data.data['password']:
-                    return Response({'Error': 'Improper password', 'Status Code': 400})
-                if not user.is_active:
-                    return Response({'Error': 'Please activate your account first', 'Status Code': 400})
-                login(request, user)
-                token = get_tokens_for_user(user).get('access token')
+                check_user = authenticate(username=serialized_data.data.get('username'),
+                                          password=serialized_data.data.get('password'))
+
+                if not check_user:
+                    return Response({'message': 'invalid credentials'}, status=401)
+                token = get_tokens_for_user(check_user).get('access_token')
                 short_token = modified_token(token)
                 logger.logging.info('User signed in')
-                return Response({'Message': f'{user.username} is now logged in', 'Status Code': 200, 'token': token,
-                                 'short token': short_token})
+                return Response({'Message': f'{user.username} is now logged in', 'status_code': 200, 'token': token,
+                                 'short_token': short_token})
         except BadRequest:
             logger.logging.error('Log Error Message')
-            return Response({'Error': "Something went wrong", 'Status Code': 400})
+            return Response({'Error': "Something went wrong", 'status_code': 400})
 
 
 class ForgotPasswordAPI(APIView):
@@ -95,7 +85,7 @@ class ForgotPasswordAPI(APIView):
             if serialized_data.is_valid():
                 user = serialized_data.get_user(serialized_data.data)
                 if not user:
-                    return Response({'Error': 'Improper email', 'Status Code': 400})
+                    return Response({'message': 'Improper email', 'status_code': 400})
                 token = get_tokens_for_user(user).get('access token')
                 short_token = modified_token(token)
                 current_site = get_current_site(request).domain
@@ -109,11 +99,11 @@ class ForgotPasswordAPI(APIView):
                 recipient = f'{user.email}'
                 to_send_email(subject, message, sender, recipient)
                 logger.logging.info('Password reset link sent')
-                return Response({'Message': 'Reset your password', 'Status Code': 200,
+                return Response({'message': 'Reset your password', 'status_code': 200,
                                  'Token': token, 'Forgot Password Link': url})
         except BadRequest:
             logger.logging.error('Log Error Message')
-            return Response({'Error': "Something went wrong", 'Status Code': 400})
+            return Response({'message': "Something went wrong", 'status_code': 400})
 
 
 class ChangePasswordAPI(APIView):
@@ -121,28 +111,16 @@ class ChangePasswordAPI(APIView):
     def put(self, request, user_id):
         try:
             data = request.data
-            serialized_data = ChangePasswordSerializer(data=data)
-            if serialized_data.is_valid():
-                old_password = serialized_data.data.get('old_password')
-                new_password = serialized_data.data.get('new_password')
-                confirm_password = serialized_data.data.get('confirm_password')
-                user = User.objects.get(pk=user_id)
-                if old_password != user.password:
-                    return Response({'Error': 'Improper Old Password', 'Code': 400})
-                if new_password != confirm_password:
-                    return Response({'Error': 'New passwords does not match', 'Code': 400})
-                user.password = new_password
+            user = User.objects.get(pk=user_id)
+            if user.check_password(data.get('old_password')):
+                user.set_password(data.get('new_password'))
                 user.save()
                 logger.logging.info('password changed')
-                return Response({'Message': f'{user.username} your password is changed', 'Code': 200})
-        except Exception as e:
+                return Response({"message": f"{user.username} your password is changed", "status_code": 200})
+            return Response({"message": "old password does not match", "status_code": 200})
+        except BadRequest:
             logger.logging.error('Log Error Message')
-            return Response({'Error': str(e), 'Status Code': 400})
-        # {
-        #     "old_password": 12345,
-        #     "new_password": 12345,
-        #     "confirm_password": 12345
-        # }
+            return Response({'message': 'something went wrong', 'status_code': 400})
 
 
 class LogoutAPI(APIView):

@@ -4,7 +4,6 @@ from rest_framework.response import Response
 
 from accounts.models import User
 from common import logger
-from common.custom_exceptions import NotSuperUser
 
 
 class Book(models.Model):
@@ -22,26 +21,19 @@ class Book(models.Model):
 
     @staticmethod
     def validate_superuser(user_id):
-        try:
-            user = User.objects.get(pk=user_id)
-            if not user.is_superuser:
-                raise NotSuperUser('Admin access only', 400)
+        user = User.objects.get(pk=user_id)
+        if user.is_superuser:
             return user
-        except NotSuperUser as exception:
-            return Response(exception.__dict__)
-        except BadRequest as e:
-            logger.logging.error('Log Error Message')
-            return user_id
 
     @staticmethod
     def check_if_book_exists(validated_data):
-        # try:
-        book_name = validated_data['name']
-        book = Book.objects.filter(name=book_name).first()
-        if book:
-            book.book_quantity += int(validated_data['book_quantity'])
-            return book
-        return None
-    # except BadRequest:
-    #     logger.logging.error('Log Error Message')
-    #     return Response({'error': "something went wrong", 'status code': 400})
+        try:
+            book_name = validated_data['name']
+            book = Book.objects.filter(name=book_name).first()
+            if book:
+                book.book_quantity += int(validated_data['book_quantity'])
+                return book
+            return None
+        except BadRequest:
+            logger.logging.error('Log Error Message')
+            return Response({'error': "something went wrong", 'status code': 400})
