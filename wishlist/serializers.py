@@ -10,4 +10,4 @@ class WishlistSerializer(serializers.ModelSerializer):
             'user'
         ]
 
-# Data classes, celery, redis, sql
+# Data classes, sql

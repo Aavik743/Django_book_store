@@ -8,7 +8,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from common import logger
-from common.email import to_send_email, Mail
+from common.email import Mail
 from common.jwt import get_tokens_for_user, token_required, modified_token
 from .models import User
 from .serializers import RegistrationSerializer, LoginSerializer, ForgotPasswordSerializer
@@ -91,13 +91,7 @@ class ForgotPasswordAPI(APIView):
                 current_site = get_current_site(request).domain
                 path = reverse('change')
                 url = 'http://' + current_site + path + '?token=' + short_token
-                subject = 'Forgot Password Link'
-                message = f'Hi {user.username}, ' \
-                          f'Click on the link to reset your password ' \
-                          f'{url}'
-                sender = 'fake.abhik@gmail.com'
-                recipient = f'{user.email}'
-                to_send_email(subject, message, sender, recipient)
+                Mail.forgot_password(user, url)
                 logger.logging.info('Password reset link sent')
                 return Response({'message': 'Reset your password', 'status_code': 200,
                                  'Token': token, 'Forgot Password Link': url})

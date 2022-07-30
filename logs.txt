@@ -10744,3 +10744,114 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 2022-07-30 10:18:18 INFO-Watching for file changes with StatReloader
 2022-07-30 10:30:24 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
 2022-07-30 10:30:25 INFO-Watching for file changes with StatReloader
+2022-07-30 10:38:18 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\wishlist\serializers.py changed, reloading.
+2022-07-30 10:38:19 INFO-Watching for file changes with StatReloader
+2022-07-30 12:18:33 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\settings.py changed, reloading.
+2022-07-30 12:18:34 INFO-Watching for file changes with StatReloader
+2022-07-30 12:19:18 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\__init__.py changed, reloading.
+2022-07-30 12:19:19 INFO-Watching for file changes with StatReloader
+2022-07-30 12:23:34 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\celery.py changed, reloading.
+2022-07-30 12:38:55 INFO-Watching for file changes with StatReloader
+2022-07-30 12:40:07 WARNING-No hostname was supplied. Reverting to default 'localhost'
+2022-07-30 12:40:13 ERROR-Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\utils\functional.py", line 30, in __call__
+    return self.__value__
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 446, in _reraise_as_library_errors
+    yield
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 433, in _ensure_connection
+    return retry_over_time(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\utils\functional.py", line 312, in retry_over_time
+    return fun(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 877, in _connection_factory
+    self._connection = self._establish_connection()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 812, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\transport\pyamqp.py", line 201, in establish_connection
+    conn.connect()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\amqp\connection.py", line 323, in connect
+    self.transport.connect()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\amqp\transport.py", line 129, in connect
+    self._connect(self.host, self.port, self.connect_timeout)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\amqp\transport.py", line 184, in _connect
+    self.sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py", line 32, in post
+    sleep_task.delay(5)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\celery\app\task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\celery\app\task.py", line 575, in apply_async
+    return app.send_task(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\celery\app\base.py", line 788, in send_task
+    amqp.send_task_message(P, name, message, **options)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\celery\app\amqp.py", line 510, in send_task_message
+    ret = producer.publish(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\messaging.py", line 177, in publish
+    return _publish(
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 523, in _ensured
+    return fun(*args, **kwargs)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\messaging.py", line 186, in _publish
+    channel = self.channel
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\messaging.py", line 209, in _get_channel
+    channel = self._channel = channel()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\utils\functional.py", line 32, in __call__
+    value = self.__value__ = self.__contract__()
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\messaging.py", line 225, in <lambda>
+    channel = ChannelPromise(lambda: connection.default_channel)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 895, in default_channel
+    self._ensure_connection(**conn_opts)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 433, in _ensure_connection
+    return retry_over_time(
+  File "C:\Users\The Lie Lama\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Users\The Lie Lama\PycharmProjects\address_book_django\venv\lib\site-packages\kombu\connection.py", line 450, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: [WinError 10061] No connection could be made because the target machine actively refused it
+2022-07-30 12:41:03 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-30 12:41:05 INFO-Watching for file changes with StatReloader
+2022-07-30 12:41:06 WARNING-Bad Request: /register/
+2022-07-30 12:44:50 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\book_store\celery.py changed, reloading.
+2022-07-30 12:44:51 INFO-Watching for file changes with StatReloader
+2022-07-30 12:50:12 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-30 12:50:14 INFO-Watching for file changes with StatReloader
+2022-07-30 12:55:15 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-30 12:55:17 INFO-Watching for file changes with StatReloader
+2022-07-30 12:56:39 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\accounts\views.py changed, reloading.
+2022-07-30 12:56:41 INFO-Watching for file changes with StatReloader
+2022-07-30 13:08:33 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\email.py changed, reloading.
+2022-07-30 13:08:34 INFO-Watching for file changes with StatReloader
+2022-07-30 13:11:38 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\email.py changed, reloading.
+2022-07-30 13:11:39 INFO-Watching for file changes with StatReloader
+2022-07-30 13:13:19 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\email.py changed, reloading.
+2022-07-30 13:13:20 INFO-Watching for file changes with StatReloader
+2022-07-30 13:17:28 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\task.py changed, reloading.
+2022-07-30 13:17:29 INFO-Watching for file changes with StatReloader
+2022-07-30 13:18:44 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\common\email.py changed, reloading.
+2022-07-30 13:18:46 INFO-Watching for file changes with StatReloader
+2022-07-30 13:20:05 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\wishlist\serializers.py changed, reloading.
+2022-07-30 13:20:06 INFO-Watching for file changes with StatReloader

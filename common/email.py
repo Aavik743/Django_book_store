@@ -1,6 +1,8 @@
-from django.contrib.sites.shortcuts import get_current_site
 from django.core.mail import send_mail
-from django.urls import reverse
+from celery.utils.log import get_task_logger
+from celery import shared_task
+
+logger = get_task_logger(__name__)
 
 
 class Mail:
@@ -11,7 +13,6 @@ class Mail:
 
     @staticmethod
     def register_user(data):
-
         subject = 'Activation Link'
         message = f'Hi {data["username"]}, ' \
                   f'' \
@@ -20,7 +21,7 @@ class Mail:
                   f'{data["url"]}'
         sender = 'fake.abhik@gmail.com'
         recipient = f'{data["email"]}'
-        Mail.send_email(subject, message, sender, recipient)
+        send_mail_task.delay(subject, message, sender, recipient)
 
     @staticmethod
     def order_notification(data):
@@ -29,9 +30,20 @@ class Mail:
                   f'and the total price is {data["total_price"]}'
         sender = 'fake.abhik@gmail.com'
         recipient = f'{data["email"]}'
-        Mail.send_email(subject, message, sender, recipient)
+        send_mail_task.delay(subject, message, sender, recipient)
+
+    @staticmethod
+    def forgot_password(data, url):
+        subject = 'Forgot Password Link'
+        message = f'Hi {data.username}, ' \
+                  f'Click on the link to reset your password ' \
+                  f'{url}'
+        sender = 'fake.abhik@gmail.com'
+        recipient = f'{data.email}'
+        send_mail_task.delay(subject, message, sender, recipient)
 
 
-def to_send_email(subject, message, sender, recipient):
-    send_mail(subject, message, sender,
-              [recipient], fail_silently=False)
+@shared_task(name='send_mail')
+def send_mail_task(subject, message, sender, recipient):
+    logger.info('send mail using celery')
+    return Mail.send_email(subject, message, sender, recipient)
