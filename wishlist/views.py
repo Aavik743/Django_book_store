@@ -1,4 +1,5 @@
 from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_page
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -30,6 +31,7 @@ class AddToWishlistAPI(APIView):
             logger.logging.error('Log Error Message')
             return Response({'message': str(e), 'status_code': 400}, status=status.HTTP_400_BAD_REQUEST)
 
+    @method_decorator(cache_page(60 * 60))
     @method_decorator(token_required)
     def get(self, request, user_id):
         try:

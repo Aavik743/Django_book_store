@@ -10739,3 +10739,8 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 2022-07-27 09:25:44 INFO-Watching for file changes with StatReloader
 2022-07-27 09:25:58 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\wishlist\views.py changed, reloading.
 2022-07-27 09:26:00 INFO-Watching for file changes with StatReloader
+2022-07-30 10:16:58 INFO-Watching for file changes with StatReloader
+2022-07-30 10:18:16 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\books\views.py changed, reloading.
+2022-07-30 10:18:18 INFO-Watching for file changes with StatReloader
+2022-07-30 10:30:24 INFO-C:\Users\The Lie Lama\PycharmProjects\address_book_django\book_store\carts\views.py changed, reloading.
+2022-07-30 10:30:25 INFO-Watching for file changes with StatReloader

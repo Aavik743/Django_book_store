@@ -2,6 +2,7 @@ from django.utils.decorators import method_decorator
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from django.views.decorators.cache import cache_page
 from django.core.paginator import Paginator
 from django.core.exceptions import BadRequest
 from common import logger
@@ -32,6 +33,7 @@ class AddBookAPI(APIView):
 
 class BookAPI(APIView):
 
+    @method_decorator(cache_page(60 * 60))
     @method_decorator(token_required)
     def get(self, request, user_id, id=None):
         try:
@@ -83,6 +85,7 @@ class BookAPI(APIView):
 
 class BookByPriceAPI(APIView):
 
+    @method_decorator(cache_page(60 * 60))
     @method_decorator(token_required)
     def get(self, request, user_id, page):
         try:

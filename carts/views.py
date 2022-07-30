@@ -1,4 +1,5 @@
 from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_page
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -33,6 +34,7 @@ class AddToCartAPI(APIView):
 
 class CartAPI(APIView):
 
+    @method_decorator(cache_page(60 * 60))
     @method_decorator(token_required)
     def get(self, request, user_id):
         try:

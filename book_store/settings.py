@@ -180,21 +180,6 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
 
-# SWAGGER_SETTINGS = {
-#     "exclude_namespaces": [],  # List URL namespaces to ignore
-#     "api_version": '0.1',  # Specify your API's version
-#     "api_path": "/",  # Specify the path to your API not a root level
-#     "enabled_methods": [  # Specify which methods to enable in Swagger UI
-#         'get',
-#         'post',
-#         'put',
-#         'patch',
-#         'delete'
-#     ],
-#     "api_key": '',  # An API key
-#     "is_authenticated": True,  # Set to True to enforce user authentication,
-#     "is_superuser": False,  # Set to True to enforce admin only access
-# }
 SWAGGER_SETTINGS = {
     'USE_SESSION_AUTH': False,
     'SECURITY_DEFINITIONS': {
@@ -205,3 +190,16 @@ SWAGGER_SETTINGS = {
         }
     },
 }
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "default"
